@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Výsledky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script src="lang.js"></script>
+
+<!-- NAV -->
+<nav>
+    <div class="wrap">
+        <a class="logo" href="index.html" title="Domů">
+            <img src="img/logo.png" alt="Logo PoliticalProfile" style="height:26px; width:auto;">
+            PoliticalProfile
+        </a>
+        <ul>
+            <li><a href="test.html" data-i18n="test"></a></li>
+            <li><a href="cz-calculator.html" data-i18n="czcalc"></a></li>
+            <li><a href="uk-calculator.html" data-i18n="ukcalc"></a></li>
+            <li><a href="results.html" data-i18n="results"></a></li>
+            <li><a href="about.html" data-i18n="about"></a></li>
+            <span id="langContainer"></span>
+        </ul>
+    </div>
+</nav>
+
+<div id="content">
+    <h1>Vaše výsledky</h1>
+
+    <h3>12-Axis Test</h3>
+    <div id="bars"></div>
+
+    <script src="script.js"></script>
+
+    <hr>
+
+    <h3>Shoda se stranami (ČR)</h3>
+    <table class="table" id="czResultsTable"><tr><td class="muted">Zatím žádná data.</td></tr></table>
+
+    <h3>Shoda se stranami (UK)</h3>
+    <table class="table" id="ukResultsTable"><tr><td class="muted">Zatím žádná data.</td></tr></table>
+
+    <hr>
+    <button class="btn secondary" id="clearAll">Smazat všechny uložené výsledky</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

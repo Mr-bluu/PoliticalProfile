@@ -1,0 +1,38 @@
+{
+  "cs": {
+    "home": "Domů",
+    "test": "12-osý test",
+    "czcalc": "Volební kalkulačka ČR",
+    "ukcalc": "Volební kalkulačka UK",
+    "results": "Výsledky",
+    "about": "O projektu",
+    "welcome": "Vítejte",
+    "intro": "Tento projekt obsahuje 12-osý politický test, volební kalkulačky a váš osobní profil.",
+    "start_test": "Začít test",
+    "agree_strongest": "Rozhodně souhlasím",
+    "agree_strong": "Souhlasím",
+    "agree_mild": "Spíše souhlasím",
+    "neutral": "Nevím / Neutrální",
+    "disagree_mild": "Spíše nesouhlasím",
+    "disagree": "Nesouhlasím",
+    "disagree_strongest": "Rozhodně nesouhlasím"
+  },
+  "en": {
+    "home": "Home",
+    "test": "12-Axis Test",
+    "czcalc": "Czech Voting Calculator",
+    "ukcalc": "UK Voting Calculator",
+    "results": "Results",
+    "about": "About",
+    "welcome": "Welcome",
+    "intro": "This project includes a 12-axis political test, voting calculators, and your personal profile.",
+    "start_test": "Start Test",
+    "agree_strongest": "Strongly Agree",
+    "agree_strong": "Agree",
+    "agree_mild": "Somewhat Agree",
+    "neutral": "Neutral / Unsure",
+    "disagree_mild": "Somewhat Disagree",
+    "disagree": "Disagree",
+    "disagree_strongest": "Strongly Disagree"
+  }
+}

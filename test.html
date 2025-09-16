@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>12-Axis Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script src="lang.js"></script>
+
+<!-- NAV (stejné jako v indexu)… -->
+<nav>
+    <div class="wrap">
+        <a class="logo" href="index.html" title="Domů">
+            <img src="img/logo.png" alt="Logo PoliticalProfile" style="height:26px; width:auto;">
+            PoliticalProfile
+        </a>
+        <ul>
+            <li><a href="test.html" data-i18n="test"></a></li>
+            <li><a href="cz-calculator.html" data-i18n="czcalc"></a></li>
+            <li><a href="uk-calculator.html" data-i18n="ukcalc"></a></li>
+            <li><a href="results.html" data-i18n="results"></a></li>
+            <li><a href="about.html" data-i18n="about"></a></li>
+            <span id="langContainer"></span>
+        </ul>
+    </div>
+</nav>
+
+<div id="content">
+    <h1>12-Axis Political Compass</h1>
+    <p class="muted">Test lze kdykoliv přerušit a pokračovat později. Pořadí otázek je pro vás náhodné a uložené.</p>
+    <hr>
+
+    <div id="quiz">
+        <div id="questionBox">
+            <p id="questionText">Klikněte na „Začít test“</p>
+        </div>
+
+        <div id="answers" style="display:none;">
+            <div class="answers-column">
+                <button class="btn-strong-yes" onclick="answer(3)" data-i18n="agree_strongest"></button>
+                <button class="btn-yes" onclick="answer(2)" data-i18n="agree_strong"></button>
+                <button class="btn-weak-yes" onclick="answer(1)" data-i18n="agree_mild"></button>
+                <button class="btn-neutral" onclick="answer(0)" data-i18n="neutral"></button>
+                <button class="btn-weak-no" onclick="answer(-1)" data-i18n="disagree_mild"></button>
+                <button class="btn-no" onclick="answer(-2)" data-i18n="disagree"></button>
+                <button class="btn-strong-no" onclick="answer(-3)" data-i18n="disagree_strongest"></button>
+            </div>
+        </div>
+
+        <p class="progress" id="progress"></p>
+        <div style="display:flex; gap:8px; justify-content:center;">
+            <button id="backBtn" class="btn secondary" style="display:none;">Zpět</button>
+            <button id="startBtn" class="btn">Začít test</button>
+            <button id="resetBtn" class="btn secondary">Resetovat postup</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

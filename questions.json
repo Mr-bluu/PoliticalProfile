@@ -1,0 +1,1353 @@
+[
+  { "text": {
+    "cs": "Prudce progresivní daňový systém je oprávněný i tehdy, když nejvýše vydělávající odejdou nebo méně investují, protože zužování příjmových a majetkových rozdílů je vyšší prioritou.",
+    "en": "A steeply progressive tax system is justified even if top earners relocate or invest less, because narrowing income and wealth gaps is a higher priority."
+    },
+    "effect": { "economic": -1 }
+  },
+
+  { "text": {
+    "cs": "Podpora v nezaměstnanosti a invalidní důchody by měly být štědré a dlouhodobé, i za cenu určitého zneužívání, protože chrání každého před naprostou bídou.",
+    "en": "Unemployment and disability benefits should be generous and long-lasting, accepting some abuse as a cost of protecting everyone from destitution."
+  },
+    "effect": { "economic": -1 }
+  },
+
+  { "text": {
+    "cs": "Univerzální zdravotní péče financovaná z daní (zdarma při využití) je lepší volba, i když se tím prodlouží čekací doby, protože přístup by neměl záviset na schopnosti platit.",
+    "en": "Universal, tax-funded healthcare (free at point of use) is preferable, even if wait times rise, because access should not depend on ability to pay."
+  },
+    "effect": { "economic": -1 }
+  },
+
+  { "text": {
+    "cs": "Přirozené monopoly (např. voda, elektrické sítě, železniční infrastruktura) by měly být ve veřejném vlastnictví, i když je jejich správa méně pružná, aby se zabránilo vyvádění zisku z nezbytných služeb.",
+    "en": "Natural monopolies (e.g., water, electricity grids, rail infrastructure) should be publicly owned, even if management is less flexible, to prevent profit being extracted from essentials."
+  },
+    "effect": { "economic": -1 }
+  },
+
+  { "text": {
+    "cs": "Minimální mzda by měla být nastavena dostatečně vysoko, aby zajistila důstojnou životní úroveň, i když to povede k tomu, že některé malé firmy přijmou méně pracovníků.",
+    "en": "The minimum wage should be set high enough to guarantee a decent living standard, even knowing some small firms may hire fewer workers."
+  },
+    "effect": { "economic": -1 }
+  },
+
+  { "text": {
+    "cs": "Odbory by měly mít silná zákonná práva (např. snadné vyhlášení stávky, kolektivní vyjednávání na úrovni odvětví), i když to omezí svobodu manažerů, aby se vyvážila moc zaměstnavatelů.",
+    "en": "Trade unions should have strong legal rights (e.g., easy strike ballots, sector-wide bargaining), even if this reduces managerial freedom, to balance employer power."
+  },
+    "effect": { "economic": -1 }
+  },
+
+  { "text": {
+    "cs": "Velké dědictví by mělo podléhat výraznému zdanění, i za cenu složitého vymáhání, aby se omezily nezasloužené výhody mezi generacemi.",
+    "en": "Large inheritances should face substantial taxation, accepting complex enforcement, to limit unearned advantages across generations."
+  },
+    "effect": { "economic": -1 }
+  },
+
+  { "text": {
+    "cs": "Vláda by měla přímo stavět nebo financovat sociální bydlení ve velkém rozsahu, i když to vytlačí část soukromých pronajímatelů, protože jisté bydlení je sociální právo.",
+    "en": "Government should directly build or fund social housing at scale, even if this displaces some private landlords, because secure shelter is a social right."
+  },
+    "effect": { "economic": -1 }
+  },
+
+  { "text": {
+    "cs": "Celkové daňové škrty jsou žádoucí, protože ponechání příjmů lidem a firmám podporuje růst a inovace, i když se tím zvýší nerovnost.",
+    "en": "Across-the-board tax cuts are desirable because leaving income with earners and firms improves growth and innovation, even if inequality widens."
+    },
+    "effect": { "economic": 1 }
+  },
+
+  { "text": {
+    "cs": "Lidé by si měli moci zvolit úroveň zdravotní péče a vzdělání, kterou preferují, přičemž cílené dotace mají být jen pro nejchudší, místo univerzálního bezplatného poskytování.",
+    "en": "People should be able to purchase the level of healthcare and education they prefer, with targeted subsidies only for the poorest, rather than universal free provision."
+  },
+    "effect": { "economic": 1 }
+  },
+
+  { "text": {
+    "cs": "Trhy s produkty, prací a financemi by měly být regulovány minimálně, s důvěrou v konkurenci a volbu spotřebitelů více než ve státní regulace.",
+    "en": "Product, labour, and financial markets should face minimal regulation, trusting competition and consumer choice more than state rule-making."
+  },
+    "effect": { "economic": 1 }
+  },
+
+  { "text": {
+    "cs": "Mzdové úrovně by měly být určovány především nabídkou a poptávkou, s omezenými zákonnými minimy, protože uměle vynucené mzdy narušují zaměstnávání a investice.",
+    "en": "Wage levels should be primarily set by supply and demand, with limited statutory floors, because enforced pay levels distort hiring and investment."
+  },
+    "effect": { "economic": 1 }
+  },
+
+  { "text": {
+    "cs": "Rodiny by měly mít možnost volně nakládat se svým majetkem mezi generacemi, jen s mírným zdaněním, protože hospodaření a spoření by neměly být trestány.",
+    "en": "Families should freely dispose of their property intergenerationally, with only modest taxes, because stewardship and saving should not be penalised."
+  },
+    "effect": { "economic": 1 }
+  },
+
+  { "text": {
+    "cs": "Neomezený obchod a pohyb kapitálu obecně prospívají společnosti, takže cla a ochrana domácích odvětví by měly být vzácné a dočasné.",
+    "en": "Unrestricted trade and capital flows generally benefit society, so tariffs and protection for domestic industries should be rare and temporary."
+  },
+    "effect": { "economic": 1 }
+  },
+
+  { "text": {
+    "cs": "Pomoc lidem v nouzi by měla přednostně zajišťovat místní a dobrovolná podpora (charity, vzájemná pomoc), přičemž stát má zasahovat až jako poslední možnost, aby se předešlo závislosti.",
+    "en": "Support for people in hardship should prioritise local and voluntary providers (charities, mutual aid), with government as last resort to avoid dependency."
+  },
+    "effect": { "economic": 1 }
+  },
+
+  { "text": {
+    "cs": "Tvůrci politik by měli upřednostňovat hospodářský růst před přerozdělováním, protože větší ekonomika nakonec zvýší životní úroveň více než samotné transfery.",
+    "en": "Policymakers should prioritise economic growth over redistribution, on the view that a larger economy ultimately lifts living standards more than transfers do."
+  },
+    "effect": { "economic": 1 }
+  },
+
+  { "text": {
+    "cs": "Je lepší osvobodit viníka, než potrestat nevinného, a proto by trestní řízení mělo upřednostňovat práva obžalovaných.",
+    "en": "It is preferable to acquit the guilty than to punish the innocent, so criminal procedure should err on the side of defendants’ rights."
+    },
+    "effect": { "authority": -1 }
+  },
+
+  { "text": {
+    "cs": "Šifrování typu end-to-end a silná ochrana soukromí by se neměly oslabovat, ani kvůli pohodlí pro orgány činné v trestním řízení.",
+    "en": "End-to-end encryption and strong privacy protections should not be weakened, even for law enforcement convenience."
+  },
+    "effect": { "authority": -1 }
+  },
+
+  { "text": {
+    "cs": "Školy by měly upřednostňovat kritické myšlení a zpochybňování autorit, i za cenu určité neukázněnosti jakožto ceny za intelektuální nezávislost.",
+    "en": "Schools should prioritise critical thinking and questioning authority, accepting some disorder as the price of intellectual independence."
+  },
+    "effect": { "authority": -1 }
+  },
+
+  { "text": {
+    "cs": "Pokojná shromáždění by měla být předpokládána jako legální, s časovými či místními omezeními využívanými jen zřídka a odůvodněnými konkrétními bezpečnostními riziky.",
+    "en": "Peaceful assemblies should be presumed lawful, with time/place limits used sparingly and justified by concrete safety risks."
+  },
+    "effect": { "authority": -1 }
+  },
+
+  { "text": {
+    "cs": "Justice by měla klást důraz na rehabilitaci a opětovné začlenění do společnosti, i když některé tresty mohou působit mírně.",
+    "en": "The justice system should emphasise rehabilitation and reintegration, even if some punishments appear lenient."
+  },
+    "effect": { "authority": -1 }
+  },
+
+  { "text": {
+    "cs": "Narušující protest (např. blokády silnic) by měl být tolerován, pokud je přiměřený vzhledem k veřejnému zájmu, který hájí.",
+    "en": "Disruptive protest (e.g., road blockades) should be tolerated when proportionate to the public interest at stake."
+  },
+    "effect": { "authority": -1 }
+  },
+
+  { "text": {
+    "cs": "Soukromá rozhodnutí dospělých se souhlasem nejsou věcí státu, pokud přímo a bez souhlasu neškodí ostatním.",
+    "en": "Consenting adults’ private choices are not the state’s business unless they cause direct, non-consensual harm to others."
+  },
+    "effect": { "authority": -1 }
+  },
+
+  { "text": {
+    "cs": "Urážlivý nebo šokující projev by měl zůstat legální; protiargumenty a společenské sankce jsou vhodnější než státní cenzura.",
+    "en": "Offensive or shocking speech should remain legal; counterspeech and social sanctions are preferable to state censorship."
+  },
+    "effect": { "authority": -1 }
+  },
+
+  { "text": {
+    "cs": "Policie by měla mít rozšířené pravomoci k prohlídkám v oblastech s vysokou kriminalitou, s nižšími prahy podezření, pokud data ukazují snížení kriminality.",
+    "en": "Police should have expanded stop-and-search powers in high-crime areas, with limited suspicion thresholds, if data show crime reductions.."
+    },
+    "effect": { "authority": 1 }
+  },
+
+  { "text": {
+    "cs": "Zpravodajské služby by měly mít možnost cíleného přístupu k soukromé komunikaci s jednodušším povolovacím procesem během věrohodných hrozeb terorismu.",
+    "en": "Intelligence agencies should be allowed targeted access to private communications with streamlined warrants during credible terror threats."
+  },
+    "effect": { "authority": 1 }
+  },
+
+  { "text": {
+    "cs": "Školy by měly klást důraz na disciplínu, uniformy a jasné hierarchie, protože poslušnost naučená v raném věku prospívá společnosti.",
+    "en": "Schools should emphasise discipline, uniforms, and clear hierarchies, on the view that obedience learned early benefits society."
+  },
+    "effect": { "authority": 1 }
+  },
+
+  { "text": {
+    "cs": "Dočasné zákazy vycházení pro nezletilé v rizikových oblastech jsou přijatelné, pokud důkazy ukazují, že snižují výskyt protispolečenského chování.",
+    "en": "Temporary curfews for minors in hotspots are acceptable if evidence shows they reduce anti-social behaviour."
+  },
+    "effect": { "authority": 1 }
+  },
+
+  { "text": {
+    "cs": "Delší tresty a povinná minimální sazba jsou oprávněné k odstrašení od závažných trestných činů, i když to povede k přeplnění věznic.",
+    "en": "Longer sentences and mandatory minimums are justified to deter serious crime, even if prisons become more crowded."
+  },
+    "effect": { "authority": 1 }
+  },
+
+  { "text": {
+    "cs": "Úřady mohou omezit nebo přesunout protesty, které výrazně narušují základní služby, přičemž je prioritou veřejný pořádek před maximální svobodou protestu.",
+    "en": "Authorities may restrict or relocate protests that significantly disrupt essential services, prioritising public order over maximal protest freedom."
+  },
+    "effect": { "authority": 1 }
+  },
+
+  { "text": {
+    "cs": "Stát může kriminalizovat soukromé chování (např. tvrdé drogy, určité hazardní hry), pokud předvídatelně podkopává stabilitu rodiny a veřejnou bezpečnost.",
+    "en": "The state may criminalise private behaviours (e.g., hard drugs, certain gambling) when they predictably undermine family stability and public safety."
+  },
+    "effect": { "authority": 1 }
+  },
+
+  { "text": {
+    "cs": "Zákony by měly zakazovat nenávistné nebo vážně urážlivé projevy, aby chránily zranitelné skupiny a veřejný mír, i za cenu omezení svobody projevu.",
+    "en": "Laws should prohibit hateful or seriously offensive expression to protect vulnerable groups and public peace, even at the cost of some speech."
+  },
+    "effect": { "authority": 1 }
+  },
+
+  { "text": {
+    "cs": "Zákon by měl upřednostňovat dlouhodobě zavedené definice rodiny a manželství a měnit je jen opatrně, aby se předešlo destabilizaci společenských norem.",
+    "en": "The law should privilege long-standing definitions of family and marriage, changing them only cautiously to avoid destabilising social norms."
+    },
+    "effect": { "cultural": 1 }
+  },
+
+  { "text": {
+    "cs": "Veřejné instituce by měly zachovávat ceremoniální praktiky a symboly, i když je někteří považují za zastaralé, protože společné rituály spojují generace.",
+    "en": "Public institutions should preserve ceremonial practices and symbols even if some view them as outdated, because shared rituals bind generations."
+  },
+    "effect": { "cultural": 1 }
+  },
+
+  { "text": {
+    "cs": "Školní osnovy by měly klást důraz na klasickou literaturu a národní historii, s omezenými úpravami, aby se předával stabilní kulturní kánon.",
+    "en": "School curricula should foreground classic literature and national history, with limited revisions, to transmit a stable cultural canon."
+  },
+    "effect": { "cultural": 1 }
+  },
+
+  { "text": {
+    "cs": "Přísnější omezení potratů jsou oprávněná k ochraně života plodu, i když to v některých případech znamená zátěž pro těhotné ženy.",
+    "en": "Tighter limits on abortion are justified to protect foetal life, even if this imposes burdens on pregnant women in some cases."
+  },
+    "effect": { "cultural": 1 }
+  },
+
+  { "text": {
+    "cs": "Rodiče a učitelé by měli podporovat jasně odlišné genderové role a očekávání, protože tyto vzory podle přesvědčení mnoha lidí poskytují osvědčené vedení.",
+    "en": "Parents and teachers should encourage clear gender-distinct roles and expectations, believing these offer proven guidance for many."
+  },
+    "effect": { "cultural": 1 }
+  },
+
+  { "text": {
+    "cs": "Kulturní praktiky, které přetrvaly (festivaly, oděvní normy, etiketa), si zasluhují předběžnou úctu, pokud neexistují silné důvody je měnit.",
+    "en": "Cultural practices that have endured (festivals, dress codes, etiquette) deserve presumptive respect, absent strong reasons to alter them."
+  },
+    "effect": { "cultural": 1 }
+  },
+
+  { "text": {
+    "cs": "Postupné změny jsou bezpečnější než rozsáhlé reformy, protože společenské normy jsou složité a částečně představují moudrost zakódovanou časem.",
+    "en": "Incremental change is safer than sweeping reforms because social norms are complex and partly wisdom encoded over time."
+  },
+    "effect": { "cultural": 1 }
+  },
+
+  { "text": {
+    "cs": "Veřejnoprávní vysílání a financování umění by měly chránit kulturní dědictví, i když to znamená, že novějším vkusu se dostane menší pozornosti.",
+    "en": "Public broadcasters and arts funding should protect heritage content, even if newer tastes are under-served."
+  },
+    "effect": { "cultural": 1 }
+  },
+
+  { "text": {
+    "cs": "Zákon by měl uznávat rozmanité formy rodiny (např. stejnopohlavní, sestavené, samoživitelé) se stejným statusem, aby odrážel skutečné životní situace.",
+    "en": "The law should recognise diverse family forms (e.g., same-sex, blended, single-parent) with equal status to reflect lived realities."
+    },
+    "effect": { "cultural": -1 }
+  },
+
+  { "text": {
+    "cs": "Veřejné instituce by měly přehodnocovat a aktualizovat ceremonie a symboly, pokud marginalizují menšiny nebo odporují současným hodnotám.",
+    "en": "Public institutions should review and update ceremonies and symbols when they marginalise minorities or conflict with contemporary values."
+  },
+    "effect": { "cultural": -1 }
+  },
+
+  { "text": {
+    "cs": "Osnovy by měly dávat přednost inkluzi a současným poznatkům, přičemž je třeba revidovat kánony a doplňovat opomíjené hlasy.",
+    "en": "Curricula should prioritise inclusion and contemporary knowledge, revising canons to add under-represented voices."
+  },
+    "effect": { "cultural": -1 }
+  },
+
+  { "text": {
+    "cs": "Ženy by měly mít spolehlivý a legální přístup k potratům s minimálními praktickými překážkami, aby byla chráněna tělesná autonomie.",
+    "en": "Women should have reliable, legal access to abortion, with practical barriers minimised, to protect bodily autonomy."
+  },
+    "effect": { "cultural": -1 }
+  },
+
+  { "text": {
+    "cs": "Genderové role by neměly být předepsané, a politiky by měly podporovat jednotlivce v tom, aby si mohli zvolit jakoukoli cestu bez ohledu na tradici.",
+    "en": "Gender roles should be non-prescriptive, with policies supporting individuals to pursue any path regardless of tradition."
+  },
+    "effect": { "cultural": -1 }
+  },
+
+  { "text": {
+    "cs": "Dlouhodobé praktiky mohou být ukončeny nebo znovu pojaty, pokud jsou v rozporu se současnými standardy lidských práv.",
+    "en": "Long-standing practices may be retired or re-imagined when they conflict with current human-rights standards."
+  },
+    "effect": { "cultural": -1 }
+  },
+
+  { "text": {
+    "cs": "Strukturální reformy jsou oprávněné, pokud postupné změny ponechávají zakořeněné nespravedlnosti nedotčené.",
+    "en": "Structural reforms are justified when incremental change leaves entrenched injustices in place."
+  },
+    "effect": { "cultural": -1 }
+  },
+
+  { "text": {
+    "cs": "Veřejné financování by mělo dávat přednost inkluzivní a inovativní kulturní tvorbě, i když tím dostane některý tradiční obsah menší prostor.",
+    "en": "Public funding should favour inclusive and innovative cultural work, even if some traditional content receives less emphasis."
+  },
+    "effect": { "cultural": -1 }
+  },
+
+  { "text": {
+    "cs": "Politické vedení by mělo výslovně upřednostňovat národní kulturu a zájmy, pokud jsou v rozporu se širšími mezinárodními preferencemi.",
+    "en": "Political leaders should explicitly prioritise national culture and interests when they conflict with broader international preferences."
+    },
+    "effect": { "identity": -1 }
+  },
+
+  { "text": {
+    "cs": "Imigrační politika by měla zvýhodňovat kulturní asimilaci a očekávat, že nově příchozí přijmou jazyk a občanské normy hostitelské země.",
+    "en": "Immigration policy should favour cultural assimilation, expecting newcomers to adopt the host country’s language and civic norms."
+  },
+    "effect": { "identity": -1 }
+  },
+
+  { "text": {
+    "cs": "Veřejné instituce by měly výrazně zobrazovat národní symboly (vlajku, hymnu) a očekávat respektující chování při oficiálních příležitostech.",
+    "en": "Public institutions should prominently display national symbols (flag, anthem) and expect respectful conduct in official settings."
+  },
+    "effect": { "identity": -1 }
+  },
+
+  { "text": {
+    "cs": "Školní osnovy by měly stavět národní historii a vyprávění do centra formování identity.",
+    "en": "School curricula should place national history and narratives at the centre of identity formation."
+  },
+    "effect": { "identity": -1 }
+  },
+
+  { "text": {
+    "cs": "Veřejné financování umění a médií by mělo podporovat díla, která posilují národní dědictví a soudržnost.",
+    "en": "Public funding for arts and media should support works that reinforce national heritage and cohesion."
+  },
+    "effect": { "identity": -1 }
+  },
+
+  { "text": {
+    "cs": "Dvojí loajality (např. silná vazba na nadnárodní identitu) by měly být posuzovány obezřetně, pokud mohou narušovat národní solidaritu.",
+    "en": "Dual loyalties (e.g., strong attachment to a transnational identity) should be viewed cautiously where they blur national solidarity."
+  },
+    "effect": { "identity": -1 }
+  },
+
+  { "text": {
+    "cs": "Občanství by mělo zahrnovat smysluplné testy a přísahy, které potvrzují příslušnost a povinnosti vůči národu.",
+    "en": "Citizenship should involve meaningful tests and oaths to affirm belonging and duties to the nation."
+  },
+    "effect": { "identity": -1 }
+  },
+
+  { "text": {
+    "cs": "Politiky by měly upřednostňovat zaměstnanost a kulturní kontinuitu stávajících občanů před udržováním vysoké úrovně migrace.",
+    "en": "Policies should prioritise the employment and cultural continuity of existing citizens over maintaining high migration levels."
+  },
+    "effect": { "identity": -1 }
+  },
+
+  { "text": {
+    "cs": "Politické vedení by mělo zdůrazňovat překrývající se identity (místní, národní, evropskou/globální) jako slučitelné a obohacující.",
+    "en": "Political leaders should articulate overlapping identities (local, national, European/global) as compatible and enriching."
+    },
+    "effect": { "identity": 1 }
+  },
+
+  { "text": {
+    "cs": "Imigrační politika by měla vítat kulturní rozmanitost a oceňovat integraci, která zachovává dědictví, místo aby vyžadovala asimilaci.",
+    "en": "Immigration policy should welcome cultural diversity, valuing integration that preserves heritage rather than insisting on assimilation."
+  },
+    "effect": { "identity": 1 }
+  },
+
+  { "text": {
+    "cs": "Veřejné prostory mohou oslabit důraz na národní symboly ve prospěch inkluzivních obrazů reprezentujících více komunit.",
+    "en": "Public spaces may de-emphasise national symbols in favour of inclusive imagery representing multiple communities."
+  },
+    "effect": { "identity": 1 }
+  },
+
+  { "text": {
+    "cs": "Školní osnovy by měly vedle národních vyprávění začleňovat světové dějiny a mezikulturní perspektivy.",
+    "en": "School curricula should embed global history and cross-cultural perspectives alongside national narratives."
+  },
+    "effect": { "identity": 1 }
+  },
+
+  { "text": {
+    "cs": "Financování umění a médií by mělo poskytovat prostor menšinovým a přistěhovaleckým hlasům, i když zpochybňují národní mýty.",
+    "en": "Arts and media funding should platform minority and immigrant voices, even when they question national myths."
+  },
+    "effect": { "identity": 1 }
+  },
+
+  { "text": {
+    "cs": "Mnohonásobné, vrstvené loajality (diasporické, jazykové, náboženské, kontinentální) jsou normální a měly by být akceptovány.",
+    "en": "Multiple, layered loyalties (diaspora, linguistic, religious, continental) are normal and should be accommodated."
+  },
+    "effect": { "identity": 1 }
+  },
+
+  { "text": {
+    "cs": "Občanství by mělo být relativně snadno dostupné, s důrazem na pobyt a přínos, nikoli na kulturní testy.",
+    "en": "Citizenship should be relatively accessible, valuing residence and contribution over cultural tests."
+  },
+    "effect": { "identity": 1 }
+  },
+
+  { "text": {
+    "cs": "Pokud vzniknou konflikty identit, politika by měla chránit pluralitu projevů, nikoli vynucovat kulturní jednotnost.",
+    "en": "When identity tensions arise, policy should protect plural expression rather than enforce cultural uniformity."
+  },
+    "effect": { "identity": 1 }
+  },
+
+  {
+    "text": {
+      "cs": "Dospělí mají trvalé závazky přispívat svému společenství časem nebo prostředky nad rámec placení daní.",
+      "en": "Adults have standing obligations to contribute time or resources to their community beyond paying taxes."
+    },
+    "effect": { "social": 1 }
+  },
+
+  {
+    "text": {
+      "cs": "Povinná občanská služba (krátká národní/komunitní služba nebo rozšíření porot o občanské úkoly) je přijatelná k budování sdílené odpovědnosti.",
+      "en": "Mandatory civic service (short national/community service or juries expanded to civic tasks) is acceptable to build shared responsibility."
+    },
+    "effect": { "social": 1 }
+  },
+
+  {
+    "text": {
+      "cs": "Veřejné zdraví vyžaduje koordinovanou akci (doporučení, příkazy v krizích), i za cenu omezení čistě individuální volby.",
+      "en": "Public health requires coordinated action (nudges, mandates in emergencies), accepting some limits on purely individual choice."
+    },
+    "effect": { "social": 1 }
+  },
+
+  {
+    "text": {
+      "cs": "Komunity mohou nastavovat a vymáhat základní normy (např. hluk, údržba, účast), aby si udržely soudržnost.",
+      "en": "Communities may set and enforce basic norms (e.g., noise, upkeep, participation) to sustain cohesion."
+    },
+    "effect": { "social": 1 }
+  },
+
+  {
+    "text": {
+      "cs": "Mechanismy solidarity (vzájemná pomoc, sousedské hlídky) by měly být aktivně podporovány a očekávány.",
+      "en": "Solidarity mechanisms (mutual aid groups, neighbourhood watches) should be actively supported and expected."
+    },
+    "effect": { "social": 1 }
+  },
+
+  {
+    "text": {
+      "cs": "Lidé by měli být nápomocní ostatním (péče, místní akce), i když je to nepohodlné; to je součástí svobody prožívané společně.",
+      "en": "People should show up for others (caregiving networks, local events) even when inconvenient; that’s part of being free together."
+    },
+    "effect": { "social": 1 }
+  },
+
+  {
+    "text": {
+      "cs": "Práva na vystoupení by měla být úzká tam, kde podrývají kolektivní programy, které fungují jen při široké účasti.",
+      "en": "Opt-out rights should be narrow when they undermine collective schemes that only work with broad participation."
+    },
+    "effect": { "social": 1 }
+  },
+
+  {
+    "text": {
+      "cs": "Morální uznání by mělo zdůrazňovat službu a vzájemnost, nikoli jen osobní úspěch.",
+      "en": "Moral praise should emphasise service and reciprocity, not just personal achievement."
+    },
+    "effect": { "social": 1 }
+  },
+
+  { "text": {
+    "cs": "Mimo základní zákonné povinnosti nemají jednotlivci vůči společnosti další závazky; charita a dobrovolnictví by měly být čistě dobrovolné.",
+    "en": "Outside basic legal duties, individuals do not owe society further obligations; charity and volunteering should be purely optional."
+    },
+    "effect": { "social": -1 }
+  },
+
+  { "text": {
+    "cs": "Povinné národní nebo komunitní programy služby jsou nevhodné; občanský přínos by měl být veden vlastní iniciativou.",
+    "en": "Compulsory national or community service programs are inappropriate; civic contribution should be self-directed."
+  },
+    "effect": { "social": -1 }
+  },
+
+  { "text": {
+    "cs": "Jednotlivci by měli nést primární odpovědnost za své zdravotní chování (strava, pohyb), s jen minimálními veřejnými doporučeními.",
+    "en": "Individuals should bear primary responsibility for health behaviours (diet, exercise), with only minimal public nudges."
+  },
+    "effect": { "social": -1 }
+  },
+
+  { "text": {
+    "cs": "Komunity by měly tolerovat nekonvenční životní styly, aniž by očekávaly, že se lidé přizpůsobí jen kvůli soudržnosti.",
+    "en": "Communities should tolerate unconventional lifestyles without expecting people to conform for the sake of cohesion."
+  },
+    "effect": { "social": -1 }
+  },
+
+  { "text": {
+    "cs": "Práva na vystoupení (např. z odborů, spolků, sousedských iniciativ) by měla být široká, aby chránila osobní autonomii.",
+    "en": "Opt-out rights (e.g., from unions, associations, neighbourhood schemes) should be broad to protect personal autonomy."
+  },
+    "effect": { "social": -1 }
+  },
+
+  { "text": {
+    "cs": "Společenská důvěra se nejlépe buduje prostřednictvím dobrovolných, malých společenství, nikoli organizovanými kolektivními programy.",
+    "en": "Social trust is best built through voluntary, small-scale associations, not organised collective programmes."
+  },
+    "effect": { "social": -1 }
+  },
+
+  { "text": {
+    "cs": "Lidé by měli mít svobodu upřednostnit osobní cíle před komunitními aktivitami, bez stigmatizace.",
+    "en": "People should be free to prioritise personal goals over communal activities, without stigma."
+  },
+    "effect": { "social": -1 }
+  },
+
+  { "text": {
+    "cs": "Morální uznání by se mělo soustředit na soběstačnost a iniciativu, nikoli na plnění kolektivních očekávání.",
+    "en": "Moral praise should focus on self-reliance and initiative, not fulfilling collective expectations."
+  },
+    "effect": { "social": -1 }
+  },
+
+  { "text": {
+    "cs": "Kolektivní bezpečnostní aliance odrazují od agrese a měly by být udržovány, i když znamenají závazky pomoci ostatním.",
+    "en": "Collective security alliances deter aggression and should be maintained, even if they entail obligations to aid others."
+    },
+    "effect": { "foreign": 1 }
+  },
+
+  { "text": {
+    "cs": "Dlouhodobá rozvojová pomoc podporuje stabilitu a je legitimním, trvalým nástrojem politiky vedle nouzové pomoci.",
+    "en": "Sustained development aid advances stability and is a legitimate, long-term policy tool alongside emergency relief."
+  },
+    "effect": { "foreign": 1 }
+  },
+
+  { "text": {
+    "cs": "Nezávislé mezinárodní soudy a pravidla chrání menší státy i naše dlouhodobé zájmy, navzdory občasným nepříznivým rozhodnutím.",
+    "en": "Independent international courts and rules protect smaller states and our own long-term interests, despite occasional adverse rulings."
+  },
+    "effect": { "foreign": 1 }
+  },
+
+  { "text": {
+    "cs": "Hluboká ekonomická vzájemná závislost obecně zvyšuje prosperitu a snižuje konflikty, což ospravedlňuje otevřený obchod s potřebnými zárukami.",
+    "en": "Deep economic interdependence generally raises prosperity and reduces conflict, warranting open trade with safeguards."
+  },
+    "effect": { "foreign": 1 }
+  },
+
+  { "text": {
+    "cs": "Cílené sankce a mírové mise jsou užitečné nástroje k reakci na zvěrstva a k prosazování mezinárodních norem.",
+    "en": "Targeted sanctions and peacekeeping are useful tools to respond to atrocities and uphold international norms."
+  },
+    "effect": { "foreign": 1 }
+  },
+
+  { "text": {
+    "cs": "Obrana by měla zahrnovat expediční schopnosti k plnění aliančních závazků a k prevenci šíření krizí.",
+    "en": "Defence should include expeditionary capabilities to meet alliance commitments and prevent crises from spreading."
+  },
+    "effect": { "foreign": 1 }
+  },
+
+  { "text": {
+    "cs": "Ochrana uprchlíků zahrnuje spravedlivý podíl na přesídlování podle mezinárodních dohod, nejen pomoc v sousedních regionech.",
+    "en": "Refugee protection includes fair resettlement shares under international agreements, not only aid in neighbouring regions."
+  },
+    "effect": { "foreign": 1 }
+  },
+
+  { "text": {
+    "cs": "Trvalé multilaterální instituce jsou nezbytné pro koordinaci v otázkách klimatu, pandemií, migrace a financí.",
+    "en": "Durable multilateral institutions are necessary to coordinate on climate, pandemics, migration, and finance."
+  },
+    "effect": { "foreign": 1 }
+  },
+
+  { "text": {
+    "cs": "Země by se měla vyhýbat vojenským intervencím v zahraničí, kromě přímé sebeobrany, i když jinde dochází k zvěrstvům.",
+    "en": "The country should avoid military interventions abroad except for direct self-defence, even when atrocities occur elsewhere."
+    },
+    "effect": { "foreign": -1 }
+  },
+
+  { "text": {
+    "cs": "Rozpočty na zahraniční pomoc by měly být omezeny na nouzové situace; dlouhodobý rozvoj by měl být druhořadý oproti domácím prioritám.",
+    "en": "Foreign aid budgets should be limited to emergencies; long-term development should be secondary to domestic priorities."
+  },
+    "effect": { "foreign": -1 }
+  },
+
+  { "text": {
+    "cs": "Závazné mezinárodní právní dohody (soudy, orgány pro obchodní spory) nadměrně omezují demokratickou samosprávu a měly by být minimalizovány.",
+    "en": "Binding international legal commitments (courts, trade dispute bodies) unduly constrain democratic self-rule and should be minimised."
+  },
+    "effect": { "foreign": -1 }
+  },
+
+  { "text": {
+    "cs": "Obchodní a investiční vazby by měly být omezeny, pokud vytvářejí strategickou závislost, i za určité ekonomické náklady.",
+    "en": "Trade and investment ties should be reduced when they create strategic dependence, even at some economic cost."
+  },
+    "effect": { "foreign": -1 }
+  },
+
+  { "text": {
+    "cs": "Sankce a mírové mise nás často zaplétají do cizích konfliktů; neutralita a odstup jsou obvykle bezpečnější.",
+    "en": "Sanctions and peacekeeping often entangle us in others’ conflicts; neutrality and distance are usually safer."
+  },
+    "effect": { "foreign": -1 }
+  },
+
+  { "text": {
+    "cs": "Obranná politika by měla upřednostňovat územní obranu před expediční schopností, i když spojenci preferují sdílení břemene.",
+    "en": "Defence policy should prioritise territorial defence over expeditionary capability, even if allies prefer burden-sharing."
+  },
+    "effect": { "foreign": -1 }
+  },
+
+  { "text": {
+    "cs": "Kvóty na přesídlování uprchlíků by měly být nízké; pomoc je lepší poskytovat v blízkosti konfliktních oblastí než prostřednictvím přijímání.",
+    "en": "Refugee resettlement quotas should be low; assistance is better delivered near conflict regions rather than through admission."
+  },
+    "effect": { "foreign": -1 }
+  },
+
+  { "text": {
+    "cs": "Mezinárodní organizace by měly být ad hoc a flexibilní, nikoli trvalé instituce, které mohou řídit národní politiku.",
+    "en": "International organisations should be ad hoc and flexible, not permanent bodies that can direct national policy."
+  },
+    "effect": { "foreign": -1 }
+  },
+
+  { "text": {
+    "cs": "Měla by být zavedena vysoká, plošná cena uhlíku se striktními limity, i když to krátkodobě zvýší náklady na energii a dopravu, protože zohlednění ekologických škod je předpokladem férových trhů.",
+    "en": "A high, economy-wide carbon price with strict caps should be implemented, even if it raises energy and transport costs in the short term, because internalising environmental damage is a prerequisite for fair markets."
+    },
+    "effect": { "ecology": -1 }
+  },
+
+  { "text": {
+    "cs": "Vláda by měla postupně ukončit využívání uhlí, ropy a plynu podle přísného harmonogramu a omezit nové těžební licence, i když to vyžaduje dotace na udržení dodávek během přechodného období.",
+    "en": "Government should phase out coal, oil and gas on a tight timetable and restrict new extraction licenses, even when this requires subsidies to keep lights on during the transition."
+  },
+    "effect": { "ecology": -1 }
+  },
+
+  { "text": {
+    "cs": "Velká infrastruktura, která podporuje více cestování autem nebo letadlem (nové ranveje, městské dálnice), by měla být zamítnuta nebo vyřazena, i za cenu ztráty pohodlí, aby se splnily klimatické cíle.",
+    "en": "Major infrastructure that induces more car or air travel (extra runways, urban motorways) should be declined or decommissioned, accepting convenience losses, to meet climate targets."
+  },
+    "effect": { "ecology": -1 }
+  },
+
+  { "text": {
+    "cs": "Když důvěryhodná věda ukazuje vážné riziko pro ekosystémy nebo veřejné zdraví, regulátoři by měli uplatnit princip předběžné opatrnosti a omezit činnosti ještě před úplným důkazem škodlivosti.",
+    "en": "When credible science shows serious risk to ecosystems or public health, regulators should apply the precautionary principle, limiting activities even before full proof of harm."
+  },
+    "effect": { "ecology": -1 }
+  },
+
+  { "text": {
+    "cs": "Ochrana biodiverzity (stanoviště, migrační koridory, zdraví řek) by měla mít ze zákona přednost před krátkodobými rozvojovými zisky, i když to znamená ztrátu pracovních míst na místní úrovni.",
+    "en": "Biodiversity protection (habitats, species corridors, river health) should legally outweigh short-term development gains where these conflict, even at measurable local job costs."
+  },
+    "effect": { "ecology": -1 }
+  },
+
+  { "text": {
+    "cs": "Potravinová politika by měla omezovat intenzivní zemědělství (pesticidy, monokultury) a podporovat regenerativní metody, i když to povede ke zdražení potravin jako ceně za udržitelnost.",
+    "en": "Food policy should curb intensive agriculture (pesticides, monocultures) and incentivise regenerative methods, accepting some increase in food prices as the cost of sustainability."
+  },
+    "effect": { "ecology": -1 }
+  },
+  { "text": {
+    "cs": "Městská zahušťování a omezení expanze do volné krajiny by měly být preferovány před výstavbou na zelených plochách, i když je bydlení na okraji levnější, aby se zachovaly uhlíkové sinky a snížila závislost na autech.",
+    "en": "Urban containment and densification should be preferred over greenfield sprawl, even if housing is cheaper at the edge, to preserve carbon sinks and reduce car dependence."
+  },
+    "effect": { "ecology": -1 }
+  },
+
+  { "text": {
+    "cs": "Mezinárodní klimatické dohody by měly být závazné a mít mechanismy vymáhání, i když to omezuje národní rozhodování v oblasti energetiky a průmyslu.",
+    "en": "International climate agreements should be binding with enforcement mechanisms, even when this constrains national discretion in energy and industry planning."
+  },
+    "effect": { "ecology": -1 }
+  },
+
+
+  { "text": {
+    "cs": "Spolehlivá a levná energie musí mít přednost; stát by měl umožnit pokračující využívání fosilních paliv, dokud nejsou alternativy prokazatelně konkurenceschopné, aby chránil domácnosti a firmy.",
+    "en": "Reliable, low-cost energy must take precedence; the state should permit continued fossil fuel use until alternatives are demonstrably competitive, to protect households and firms."
+    },
+    "effect": { "ecology": 1 }
+  },
+
+  { "text": {
+    "cs": "Tam, kde nové letiště, silnice nebo přístavy jasně podporují obchod a produktivitu, by se měly realizovat, i když dočasně zvýší celkové emise, protože prosperita financuje budoucí mitigaci.",
+    "en": "Where new airports, roads, and ports clearly unlock trade and productivity, they should proceed, even if aggregate emissions rise temporarily, because prosperity funds future mitigation."
+  },
+    "effect": { "ecology": 1 }
+  },
+
+  { "text": {
+    "cs": "Environmentální pravidla by měla procházet přísnými testy nákladů a přínosů a měla by být zmírněna tam, kde náklady na dodržování výrazně snižují konkurenceschopnost bez velkých, prokázaných ekologických zisků.",
+    "en": "Environmental rules should pass strict cost-benefit tests, and be relaxed where compliance costs materially reduce competitiveness without large, proven environmental gains."
+  },
+    "effect": { "ecology": 1 }
+  },
+
+  { "text": {
+    "cs": "Přednost by měla mít vlastnická práva a kompenzace; ekologická omezení, která snižují hodnotu majetku, by měla vést k náhradám, nikoli k nekompenzovanému odebrání.",
+    "en": "Property rights and compensation should be prioritised; environmental restrictions that devalue assets should trigger compensation rather than uncompensated takings."
+  },
+    "effect": { "ecology": 1 }
+  },
+
+  { "text": {
+    "cs": "Politika by měla rozšiřovat vysoce výnosné zemědělství a zemědělské technologie, aby zajistila dostupnost a bezpečnost potravin, s přijetím kompromisů v podobě ztráty biotopů, pokud jsou podle monitoringu zvládnutelné.",
+    "en": "Policy should expand high-yield farming and agri-tech to ensure food affordability and security, accepting habitat trade-offs that monitoring indicates are manageable."
+  },
+    "effect": { "ecology": 1 }
+  },
+
+  { "text": {
+    "cs": "Územní plánování by mělo uvolnit více půdy pro bydlení a průmyslové zóny na okrajích měst, když je vysoká poptávka, i když to zmenší zelené okraje, aby se zmírnil tlak na ceny a vznikla pracovní místa.",
+    "en": "Planning should release more land for housing and industrial zones on city fringes when demand is high, even if this reduces green edges, to ease price pressures and create jobs."
+  },
+    "effect": { "ecology": 1 }
+  },
+
+  { "text": {
+    "cs": "Klimatické dohody by měly stanovovat nezávazné, národně určené cíle a zachovat flexibilitu, pokud se zhorší ekonomické podmínky nebo se neosvědčí technologie.",
+    "en": "Climate arrangements should set non-binding, nationally determined targets, preserving flexibility if economic conditions worsen or technologies underperform."
+  },
+    "effect": { "ecology": 1 }
+  },
+
+  { "text": {
+    "cs": "Země by měla upřednostňovat domácí růst a zaměstnanost před financováním globálních ekologických iniciativ tam, kde jsou přímé rozpočtové střety.",
+    "en": "The country should prioritise domestic growth and employment over funding global environmental initiatives, where trade-offs are direct and budget-constrained."
+  },
+    "effect": { "ecology": 1 }
+  },
+
+  { "text": {
+    "cs": "U složitých otázek (např. vakcíny, klima, fiskální politika) by měly mít odborné agentury pravomoc určovat agendu, i když jsou jejich doporučení zpočátku nepopulární, protože výsledky závisí na technických úsudcích.",
+    "en": "On complex issues (e.g., vaccines, climate, fiscal policy), expert agencies should have agenda-setting authority, even when recommendations are initially unpopular, because outcomes hinge on technical judgments."
+    },
+    "effect": { "hierarchy": 1 }
+  },
+
+  { "text": {
+    "cs": "Nezávislost centrální banky by měla být chráněna, i když si zvolené vlády před volbami přejí uvolněnější měnovou politiku, aby se předešlo politicky řízené inflaci a nestabilitě.",
+    "en": "Central bank independence should be protected, even if elected governments prefer looser money before elections, to avoid politically driven inflation and instability."
+  },
+    "effect": { "hierarchy": 1 }
+  },
+
+  { "text": {
+    "cs": "Soudní přezkum a ústavní soudy by měly mít možnost zrušit zákony, které porušují práva nebo postupy, i když byl zákon přijat jasnou většinou.",
+    "en": "Judicial review and constitutional courts should be able to strike down legislation that breaches rights or procedures, even when the law passed with a popular majority."
+  },
+    "effect": { "hierarchy": 1 }
+  },
+
+  { "text": {
+    "cs": "Mezinárodní standardizační orgány a smluvní závazky poskytují užitečné vnější omezení vlád a měly by být dodržovány, i když blokují krátkodobá většinová přání.",
+    "en": "International standards bodies and treaty commitments provide useful external constraints on governments, and should be honoured, even when they block short-term majoritarian desires."
+  },
+    "effect": { "hierarchy": 1 }
+  },
+
+  { "text": {
+    "cs": "Nezávislí regulátoři (médií, veřejných služeb, hospodářské soutěže) by měli činit konečná, kvazi-soudní rozhodnutí oddělená od každodenního politického tlaku, aby byla zajištěna nestrannost.",
+    "en": "Independent regulators (media, utilities, competition) should make final, quasi-judicial decisions insulated from day-to-day political pressure to ensure impartiality."
+  },
+    "effect": { "hierarchy": 1 }
+  },
+
+  { "text": {
+    "cs": "Meritokratické poradní rady (vědci, ekonomové, občanští lídři) by měly formovat návrhy politik ještě před veřejnou konzultací, protože odbornost vytváří lepší možnosti.",
+    "en": "Meritocratic advisory councils (scientists, economists, civic leaders) should shape policy drafts before public consultation, on the view that expertise frames better options."
+  },
+    "effect": { "hierarchy": 1 }
+  },
+
+  { "text": {
+    "cs": "Zastupitelská demokracie je filtrovací mechanismus: volení zástupci by měli veřejné mínění spíše tříbit než přesně odrážet, pokud důkazy odporují pocitům většiny.",
+    "en": "Representative democracy is a filtering mechanism: elected officials should refine public opinion rather than mirror it exactly when evidence conflicts with sentiment."
+  },
+    "effect": { "hierarchy": 1 }
+  },
+
+  { "text": {
+    "cs": "Politická komunikace by měla odrazovat od senzacechtivosti (např. prostřednictvím profesních standardů médií), i když to zpomalí přímé „hlas lidu“ kanály.",
+    "en": "Political communication should de-incentivise sensationalism (e.g., through professional media standards), even if this slows raw, direct “voice of the people” channels."
+  },
+    "effect": { "hierarchy": 1 }
+  },
+
+  { "text": {
+    "cs": "Tam, kde jasná veřejná většina politiku odmítá, by ji vlády neměly prosazovat, i když ji odborné komise považují za přínosnou, protože legitimita vychází z lidu.",
+    "en": "Where clear public majorities oppose a policy, governments should not impose it, even if expert panels deem it beneficial, because legitimacy flows from the people."
+    },
+    "effect": { "hierarchy": -1 }
+  },
+
+  { "text": {
+    "cs": "Závazná referenda nebo občanské iniciativy by měla rozhodovat o velkých ústavních nebo suverenitních otázkách, místo aby byla ponechána jen parlamentu.",
+    "en": "Binding referendums or citizens’ initiatives should decide major constitutional or sovereignty questions rather than leaving them to parliament alone."
+  },
+    "effect": { "hierarchy": -1 }
+  },
+
+  { "text": {
+    "cs": "Volení zástupci by měli mít možnost přehlasovat soudce u sporných ústavních výkladů, pod podmínkou přímé volební odpovědnosti.",
+    "en": "Elected representatives should be able to override judges on contested constitutional interpretations, subject to direct electoral accountability."
+  },
+    "effect": { "hierarchy": -1 }
+  },
+
+  { "text": {
+    "cs": "Technokratické orgány jsou často ovládnuty zájmy nebo skupinovým myšlením; politika by se měla více opírat o občanské poroty a masové konzultace než o izolované experty.",
+    "en": "Technocratic bodies are often captured by interests or groupthink; policy should lean toward citizen juries and mass consultation rather than insulated experts."
+  },
+    "effect": { "hierarchy": -1 }
+  },
+
+  { "text": {
+    "cs": "Mezinárodní organizace by měly mít poradní, nikoli direktivní pravomoci nad domácí politikou, přičemž primát mají národní volby.",
+    "en": "International organisations should have advisory, not directive, power over domestic policy, preserving the primacy of national ballots."
+  },
+    "effect": { "hierarchy": -1 }
+  },
+
+  { "text": {
+    "cs": "Politici by měli používat jednoduchý jazyk a přímé kanály (veřejná setkání, sociální platformy), aby následovali většinové preference, spíše než elitní mediální narativy.",
+    "en": "Politicians should use plain language and direct channels (town halls, social platforms) to follow majority preferences rather than elite media narratives."
+  },
+    "effect": { "hierarchy": -1 }
+  },
+
+  { "text": {
+    "cs": "Odvolatelnost politiků a časové limity mandátů jsou potřebné, aby zůstali mezi volbami odpovědní obyčejným lidem.",
+    "en": "Recall elections and term limits are needed to keep leaders responsive to ordinary people between elections."
+  },
+    "effect": { "hierarchy": -1 }
+  },
+
+  { "text": {
+    "cs": "Lídři, kteří tvrdí, že mluví „za lid“, často napravují zanedbávání elitami, a jejich mandát by měl mít rozhodující váhu při tvorbě politiky, dokud trvá.",
+    "en": "Leaders who claim to speak for “the people” are often correcting elite neglect, and their mandate should carry decisive policy weight while it lasts."
+  },
+    "effect": { "hierarchy": -1 }
+  },
+
+  { "text": {
+    "cs": "Stát by měl být nábožensky neutrální: zákony a politiky musí vycházet z veřejně přístupných důvodů nezávislých na víře, i když mnoho občanů sdílí stejné náboženství.",
+    "en": "The state should be religiously neutral: laws and policies must rest on public reasons accessible regardless of faith, even if many citizens share a religion."
+    },
+    "effect": { "religion": -1 }
+  },
+
+  { "text": {
+    "cs": "Státní školy by se měly vyhnout povinným bohoslužbám či náboženské doktríně; srovnávací religionistika může být vyučována akademicky, ale ne praktikována jako součást výuky.",
+    "en": "State schools should avoid required worship or doctrine; comparative religion may be taught academically but not practised as part of schooling."
+  },
+    "effect": { "religion": -1 }
+  },
+
+  { "text": {
+    "cs": "Oficiální ceremonie a budovy by neměly upřednostňovat konkrétní náboženské symboly; pokud je žádoucí inkluze, měla by být pluralistická, nikoli zaměřená na jednu víru.",
+    "en": "Official ceremonies and buildings should not privilege particular religious symbols; where inclusion is desired, it should be pluralistic, not faith-specific."
+  },
+    "effect": { "religion": -1 }
+  },
+
+  { "text": {
+    "cs": "Civilní právo o manželství, rozvodu, dědictví a adopci by mělo být jednotné; náboženské obřady mohou být volitelné, ale nesmí určovat právní status.",
+    "en": "Civil law on marriage, divorce, inheritance, and adoption should be uniform, with religious rites optional but not determinative of legal status."
+  },
+    "effect": { "religion": -1 }
+  },
+
+  { "text": {
+    "cs": "Veřejné financování by nemělo zvýhodňovat poskytovatele založené na víře oproti sekulárním při stejných službách; konkurenční neutralita zabraňuje tomu, aby byli daňoví poplatníci nuceni financovat náboženskou doktrínu.",
+    "en": "Public funding should not favour faith-based providers over secular ones for equivalent services; competitive neutrality avoids coercing taxpayers to fund doctrine."
+  },
+    "effect": { "religion": -1 }
+  },
+
+  { "text": {
+    "cs": "Výjimky ze svědomí (např. vůči antidiskriminačním povinnostem nebo zdravotní péči) by měly být úzké a specifické, aby náboženská víra nenarušovala obecná práva.",
+    "en": "Conscience exemptions (e.g., to anti-discrimination or healthcare duties) should be narrow and specific, so religious belief does not erode general rights."
+  },
+    "effect": { "religion": -1 }
+  },
+
+  { "text": {
+    "cs": "Zákony o rouhání nebo svatokrádeži by měly být zrušeny; urážka víry se řeší odpovědí v diskusi a občanskoprávními prostředky, nikoli trestními sankcemi.",
+    "en": "Blasphemy or sacrilege laws should be abolished; offense to beliefs is addressed by counterspeech and civil remedies, not criminal penalties."
+  },
+    "effect": { "religion": -1 }
+  },
+
+  { "text": {
+    "cs": "Osobní víra politiků by měla zůstat soukromá a neměla by být rozhodující; veřejná funkce vyžaduje odůvodňování politiky sekulárními argumenty.",
+    "en": "Politicians’ personal faith should be private and non-determinative; public office requires justifying policies with secular reasons."
+  },
+    "effect": { "religion": -1 }
+  },
+
+  { "text": {
+    "cs": "Zákony by měly odrážet převládající náboženskou morálku komunity v otázkách jako rodina, sexualita a bioetika, i když tuto víru nesdílejí všichni.",
+    "en": "Law should reflect the community’s prevailing religious morality on issues such as family, sexuality, and bioethics, even if not everyone shares that faith."
+    },
+    "effect": { "religion": 1 }
+  },
+
+  { "text": {
+    "cs": "Školy a charity založené na víře by měly dostávat veřejnou podporu za rovných podmínek, s uznáním morálního a společenského kapitálu, který přinášejí.",
+    "en": "Faith-based schools and charities should receive public support on equal terms, recognising the moral and social capital they contribute."
+  },
+    "effect": { "religion": 1 }
+  },
+
+  { "text": {
+    "cs": "Náboženské symboly a obřady by měly být vítány ve veřejných institucích jako vyjádření dědictví a hodnot národa.",
+    "en": "Religious symbols and observances should be welcome in public institutions as expressions of the nation’s heritage and values."
+  },
+    "effect": { "religion": 1 }
+  },
+
+  { "text": {
+    "cs": "Tam, kde se na tom komunity shodnou, by měla být náboženská arbitráž (např. ve věcech rodiny či dědictví) uznávána s minimálními zárukami.",
+    "en": "Where communities consent, religious arbitration (e.g., for family or inheritance matters) should be recognised, subject to minimal safeguards."
+  },
+    "effect": { "religion": 1 }
+  },
+
+  { "text": {
+    "cs": "Politici by měli své víry otevřeně deklarovat a konzultovat, protože voliči mohou legitimně preferovat vůdce, kteří se řídí náboženskými ctnostmi.",
+    "en": "Politicians should declare and consult their faith commitments openly, because voters may legitimately prefer leaders guided by religious virtues."
+  },
+    "effect": { "religion": 1 }
+  },
+
+  { "text": {
+    "cs": "Ochrana svědomí pro věřící by měla být široká, umožňující odmítnutí služeb, které významně odporují doktríně, pokud je dostupné alternativní zajištění.",
+    "en": "Conscience protections for believers should be broad, allowing refusal of services that meaningfully conflict with doctrine if alternative provision is available."
+  },
+    "effect": { "religion": 1 }
+  },
+
+  { "text": {
+    "cs": "Stát by měl podporovat veřejnou morálku v souladu s hlavními náboženskými tradicemi (např. omezovat hazard, pornografii nebo určité lékařské postupy).",
+    "en": "The state should promote public morality aligned with major religious traditions (e.g., limiting gambling, pornography, or certain medical procedures)."
+  },
+    "effect": { "religion": 1 }
+  },
+
+  { "text": {
+    "cs": "Zákony proti úmyslné náboženské urážce jsou oprávněné, aby chránily věřící a společenský mír, i za cenu omezení absolutní svobody projevu.",
+    "en": "Laws against deliberate religious vilification are justified to protect believers and social peace, even at some cost to absolute free speech."
+  },
+    "effect": { "religion": 1 }
+  },
+
+  { "text": {
+    "cs": "Některé systémy jsou strukturálně nespravedlivé a jen zásadní přepracování (nové ústavy, nové modely vlastnictví) může napravit zakořeněné škody.",
+    "en": "Some systems are structurally unjust, and only foundational redesign (new constitutions, new ownership models) can remedy entrenched harms."
+    },
+    "effect": { "change": 1 }
+  },
+
+  { "text": {
+    "cs": "Kompromis upevňuje nespravedlnost; odmítnutí polovičatých opatření je nutné, pokud jsou ohrožena základní práva nebo důstojnost.",
+    "en": "Compromise entrenches injustice; refusing half-measures is necessary when core rights or dignity are at stake."
+  },
+    "effect": { "change": 1 }
+  },
+
+  { "text": {
+    "cs": "Narušující taktiky (stávky, okupace, rozsáhlé občanské neposlušnosti) jsou legitimní, když instituce ignorují nebo potlačují spravedlivé požadavky.",
+    "en": "Disruptive tactics (mass strikes, occupations, widespread civil disobedience) are legitimate when institutions ignore or suppress just demands."
+  },
+    "effect": { "change": 1 }
+  },
+
+  { "text": {
+    "cs": "Ústavy vzniklé z nespravedlivých řádů mohou vyžadovat nahrazení prostřednictvím ustavujícího procesu místo dílčích změn.",
+    "en": "Constitutions born of unjust orders may require replacement through constituent processes rather than piecemeal amendment."
+  },
+    "effect": { "change": 1 }
+  },
+
+  { "text": {
+    "cs": "Volené demokracie mohou sloužit elitám; může být potřeba budovat paralelní grassroots instituce k přerozdělení moci.",
+    "en": "Electoral democracies can serve elite interests; building parallel grassroots institutions may be needed to redistribute power."
+  },
+    "effect": { "change": 1 }
+  },
+
+  { "text": {
+    "cs": "Kapitalistické vlastnické vztahy produkují systémovou nerovnost; měly by je nahrazovat kolektivní vlastnictví nebo decentralizované commons, nikoli jen opravy.",
+    "en": "Capitalist property relations produce systemic inequality; collective ownership or decentralised commons should replace them rather than be patched."
+  },
+    "effect": { "change": 1 }
+  },
+
+  { "text": {
+    "cs": "Zavedené odbory a strany mohou zneužít nesouhlas; transformativní změnu by měly vést nezávislé rady či shromáždění.",
+    "en": "Established unions and parties can co-opt dissent; independent councils or assemblies should lead transformative change."
+  },
+    "effect": { "change": 1 }
+  },
+
+  { "text": {
+    "cs": "Rychlé, rozsáhlé změny jsou eticky odůvodněné, pokud postupné reformy předvídatelně obětují generace, aby zachovaly nespravedlivý status quo.",
+    "en": "Rapid, sweeping change is ethically warranted when incrementalism predictably sacrifices generations to maintain an unjust status quo."
+  },
+    "effect": { "change": 1 }
+  },
+
+  { "text": {
+    "cs": "Trvalý pokrok se nejlépe dosahuje postupnými legislativními reformami, i když problémy působí urgentně, protože instituce nesou akumulované know-how.",
+    "en": "Durable progress is best achieved by incremental legislative reforms, even when problems feel urgent, because institutions carry accumulated know-how."
+    },
+    "effect": { "change": -1 }
+  },
+
+  { "text": {
+    "cs": "Kompromis s oponenty je občansky přínosný a buduje souhlas; puristické vítězství bez zapojení veřejnosti se pravděpodobně rozpadne.",
+    "en": "Compromise with opponents is a civic good that builds consent; purist victories without buy-in are likely to unravel."
+  },
+    "effect": { "change": -1 }
+  },
+
+  { "text": {
+    "cs": "Ústavní změny by měly být vzácné a pečlivě testované; úplná náhrada nese riziko nechtěných důsledků, které je těžké zvrátit.",
+    "en": "Constitutional change should be rare and carefully piloted; wholesale replacement risks unintended consequences that are hard to reverse."
+  },
+    "effect": { "change": -1 }
+  },
+
+  { "text": {
+    "cs": "Násilné nebo nátlakové taktiky obvykle delegitimizují hnutí a poškozují nevinné; normou by měl být nenásilný, zákonný tlak.",
+    "en": "Violent or coercive tactics usually delegitimise movements and damage innocents; non-violent, lawful pressure should be the norm."
+  },
+    "effect": { "change": -1 }
+  },
+
+  { "text": {
+    "cs": "Ekonomické systémy by měly být opravovány, ne rušeny: cílená regulace a sociální záchranné sítě jsou lepší než systémové převraty.",
+    "en": "Economic systems should be repaired not abolished: targeted regulation and safety nets are preferable to systemic upheaval."
+  },
+    "effect": { "change": -1 }
+  },
+
+  { "text": {
+    "cs": "Práce uvnitř stávajících odborů, politických stran a soudů je efektivnější než jejich opouštění jako nenapravitelných.",
+    "en": "Work inside existing unions, parties, and courts is more effective than abandoning them as irredeemable."
+  },
+    "effect": { "change": -1 }
+  },
+
+  { "text": {
+    "cs": "Pilotní programy a hodnocení by měly předcházet celonárodnímu nasazení; škálování by mělo řídit ověřené důkazy, nikoli nadšení.",
+    "en": "Pilot programs and evaluation should precede sweeping national rollouts; evidence should guide scaling, not fervour."
+  },
+    "effect": { "change": -1 }
+  },
+
+  { "text": {
+    "cs": "Politická představivost by měla směřovat do realistických koalic, nikoli do maximalistických požadavků, které nelze prosadit.",
+    "en": "Political imagination should be channelled into realistic coalitions, not maximalist demands that cannot pass."
+  },
+    "effect": { "change": -1 }
+  },
+
+  { "text": {
+    "cs": "Principy by měly určovat hranice politiky, i když důkazy naznačují zisky z jejich porušení (např. žádné mučení, žádná diskriminace).",
+    "en": "Principles should set boundaries on policy, even if evidence suggests gains from violating them (e.g., no torture, no discrimination).\n"
+    },
+    "effect": { "politic": 1 }
+  },
+
+  { "text": {
+    "cs": "Kompromisy, které porušují základní práva, jsou nepřijatelné, bez ohledu na jejich popularitu nebo krátkodobý přínos.",
+    "en": "Compromises that breach core rights are unacceptable, regardless of their popularity or short-term utility.\n"
+  },
+    "effect": { "politic": 1 }
+  },
+
+  { "text": {
+    "cs": "Politika může být morálně vyžadována, i když metriky ukazují smíšené výsledky, pokud chrání důstojnost, autonomii nebo spravedlnost.",
+    "en": "A policy can be morally required even if metrics show mixed outcomes, where it protects dignity, autonomy, or justice."
+  },
+    "effect": { "politic": 1 }
+  },
+
+  { "text": {
+    "cs": "Sliby jsou morální závazky; vůdci by měli upřednostnit porážku před porušením zásadních slibů.",
+    "en": "Promises are moral commitments; leaders should prefer defeat to reneging on central pledges."
+  },
+    "effect": { "politic": 1 }
+  },
+
+  { "text": {
+    "cs": "Když jsou ohrožena práva nebo naléhavé požadavky na spravedlnost, postupné kroky nestačí; je nutná komplexní reforma.",
+    "en": "When rights or urgent justice claims are at stake, incrementalism is insufficient; comprehensive reform is required."
+  },
+    "effect": { "politic": 1 }
+  },
+
+  { "text": {
+    "cs": "Politika by měla orientovat občany na vizi dobré společnosti, nikoli jen řídit kompromisy v rámci stávajících omezení.",
+    "en": "Politics should orient citizens to a vision of the good society, not merely manage trade-offs within present constraints."
+  },
+    "effect": { "politic": 1 }
+  },
+
+  { "text": {
+    "cs": "Práva menšin a morální pravdy by neměla být předmětem popularity; některé hodnoty stojí nad průzkumy veřejného mínění.",
+    "en": "Minority rights and moral truths should not be subject to popularity; some values stand above polling."
+  },
+    "effect": { "politic": 1 }
+  },
+
+  { "text": {
+    "cs": "Technokratický úspěch bez morálního cíle riskuje legitimizaci nespravedlnosti; morální jasnost by měla vést výběr politiky.",
+    "en": "Technocratic success without moral purpose risks legitimising injustice; moral clarity should guide policy selection."
+  },
+    "effect": { "politic": 1 }
+  },
+
+  { "text": {
+    "cs": "Politiky by měly být vybírány podle prokázané účinnosti v testech a srovnávacích datech, i když urážejí ideologické preference.",
+    "en": "Policies should be selected for demonstrable effectiveness in trials and comparative data, even when they offend ideological preferences."
+    },
+    "effect": { "politic": -1 }
+  },
+
+  { "text": {
+    "cs": "Vůdci by měli směňovat politické ústupky, aby sestavili většiny, upřednostňujíce částečná vítězství před principiálními porážkami.",
+    "en": "Leaders should trade policy concessions to assemble majorities, valuing partial wins over principled defeats."
+  },
+    "effect": { "politic": -1 }
+  },
+
+  { "text": {
+    "cs": "Měření výsledků (snížení chudoby, čekací doby, kriminalita) by mělo převážit nad doktrinální konzistencí při hodnocení úspěchu.",
+    "en": "Outcome metrics (poverty reduction, waiting times, crime rates) should outweigh doctrinal consistency when judging success."
+  },
+    "effect": { "politic": -1 }
+  },
+
+  { "text": {
+    "cs": "Veřejná přijatelnost a administrativní proveditelnost jsou legitimní omezení; návrhy, které nelze realizovat, by měly být odloženy.",
+    "en": "Public acceptability and administrative feasibility are legitimate constraints; proposals that cannot be implemented should be set aside."
+  },
+    "effect": { "politic": -1 }
+  },
+
+  { "text": {
+    "cs": "Postupné zlepšení nyní je lepší než čekání na dokonalý ideál, který nemusí nikdy projít.",
+    "en": "Incremental improvement now is preferable to holding out for a comprehensive ideal that may never pass."
+  },
+    "effect": { "politic": -1 }
+  },
+
+  { "text": {
+    "cs": "Vůdci mohou revidovat nebo zrušit sliby, pokud se podmínky výrazně změní, pokud transparentně vysvětlí kompromisy.",
+    "en": "Leaders may revise or drop pledges when conditions change materially, provided they explain trade-offs transparently."
+  },
+    "effect": { "politic": -1 }
+  },
+
+  { "text": {
+    "cs": "V krizích by mělo být upřednostněno nedokonalé, ale rychlé řešení před dokonalým plánem, který přijde příliš pozdě.",
+    "en": "In crises, imperfect but fast solutions should trump perfect plans that arrive too late."
+  },
+    "effect": { "politic": -1 }
+  },
+
+  { "text": {
+    "cs": "Ideologické testy čistoty brání vytváření koalic a měly by být odmítány ve prospěch širších aliancí.",
+    "en": "Ideological purity tests impede coalition-building and should be resisted in favour of broad tents."
+  },
+    "effect": { "politic": -1 }
+  },
+
+  { "text": {
+    "cs": "Aby byla zajištěna rovná péče a standardy, klíčové služby (zdravotnictví, školství, sociální pomoc) by měly být určovány na národní úrovni s omezenými místními odchylkami.",
+    "en": "To ensure equal treatment and standards, core services (healthcare, education, welfare) should be specified nationally, with limited local deviation."
+    },
+    "effect": { "source": -1 }
+  },
+
+  { "text": {
+    "cs": "Centrální výběr daní a redistribuce jsou nezbytné ke snížení regionálních nerovností, i když prosperující oblasti přispívají více, než kolik obdrží.",
+    "en": "Central tax collection and redistribution are necessary to reduce regional inequalities, even if prosperous areas contribute more than they receive."
+  },
+    "effect": { "source": -1 }
+  },
+
+  { "text": {
+    "cs": "Velká infrastruktura (energetické sítě, železnice, vodovody) by měla být plánována a financována centrálně, aby se koordinovala napříč regiony a předešlo duplicity.",
+    "en": "Large infrastructure (energy grids, rail, water) should be planned and financed centrally to coordinate across regions and avoid duplication."
+  },
+    "effect": { "source": -1 }
+  },
+
+  { "text": {
+    "cs": "V národních krizích (pandemie, finanční krize) by jednotné pokyny měly mít přednost před místními rozhodnutími, aby byla zajištěna koordinovaná reakce.",
+    "en": "In national emergencies (pandemics, financial crises), uniform directives should override local discretion to deliver coherent responses."
+  },
+    "effect": { "source": -1 }
+  },
+
+  { "text": {
+    "cs": "Minimální národní nároky (učební osnovy, práva pacientů, standardy policie) by měly být soudně vymahatelné, omezující místní odchylky, které vytvářejí „poštovní loterie“.",
+    "en": "Minimum national entitlements (curriculum, patient rights, policing standards) should be justiciable, limiting local departures that create postcode lotteries."
+  },
+    "effect": { "source": -1 }
+  },
+
+  { "text": {
+    "cs": "Granty na vyrovnání mezi regiony by měly být určovány centrálně podle předem daných kritérií, nikoli podle místní schopnosti lobbovat.",
+    "en": "Inter-regional equalisation grants should be formula-driven by the centre, not contingent on local lobbying capacity."
+  },
+    "effect": { "source": -1 }
+  },
+
+  { "text": {
+    "cs": "Národní dohled nad policií a soudnictvím je potřebný k zajištění konzistentní ochrany práv a profesionálních standardů.",
+    "en": "National oversight of policing and justice is needed to ensure consistent rights protections and professional standards."
+  },
+    "effect": { "source": -1 }
+  },
+
+  { "text": {
+    "cs": "Pokud místní veto blokuje projekty národního významu (např. modernizace sítí, přehrady), měly by existovat centrální pravomoci s možností kompenzace.",
+    "en": "Where local vetoes block projects of national significance (e.g., grid upgrades, reservoirs), central override powers should exist with compensation."
+  },
+    "effect": { "source": -1 }
+  },
+
+  { "text": {
+    "cs": "Rozhodování by mělo respektovat subsidiaritu: pravomoci by měly být na nejnižší místní úrovni, která je schopna je kompetentně spravovat, i když se výsledky liší podle oblasti.",
+    "en": "Decision-making should follow subsidiarity: powers should sit at the most local level capable of handling them competently, even if outcomes vary by area."
+    },
+    "effect": { "source": 1 }
+  },
+
+  { "text": {
+    "cs": "Místně vybrané příjmy (daň z nemovitostí, prodeje, turistické poplatky) by měly zůstat lokálně, s omezenými podmínkami, aby výdaje odpovídaly místním preferencím.",
+    "en": "Locally raised revenues (property, sales, tourism levies) should be kept locally, with limited strings, to align spending with local preferences."
+  },
+    "effect": { "source": 1 }
+  },
+
+  { "text": {
+    "cs": "Poskytování služeb by se mělo přizpůsobovat místním podmínkám (zdravotnictví ve městech vs. na venkově, školství respektující kulturní rozdíly), místo aby se vynucoval jednotný národní model.",
+    "en": "Service provision should adapt to local contexts (rural vs urban health, culturally responsive schooling) rather than enforcing a single national model."
+  },
+    "effect": { "source": 1 }
+  },
+  { "text": {
+    "cs": "Komunity dotčené velkými projekty by měly mít závazné mechanismy souhlasu (lokální referenda, občanské poroty) před jejich schválením.",
+    "en": "Communities affected by major projects should have binding consent mechanisms (local referenda, citizens’ juries) before approval."
+  },
+    "effect": { "source": 1 }
+  },
+
+  { "text": {
+    "cs": "V rychle se vyvíjejících situacích (povodně, epidemie) by měly mít městské úřady svobodu jednat před centrálním vedením na základě místních informací.",
+    "en": "In fast-moving situations (floods, outbreaks), municipal authorities should be free to act ahead of central guidance based on local intelligence."
+  },
+    "effect": { "source": 1 }
+  },
+
+  { "text": {
+    "cs": "Lokální volební systémy a instituce (starostové, rady, shromáždění) by měly být navrhovány lokálně, ne jednotně diktovány centrem.",
+    "en": "Local electoral systems and institutions (mayors, councils, assemblies) should be designed locally, not imposed uniformly by the centre."
+  },
+    "effect": { "source": 1 }
+  },
+
+  { "text": {
+    "cs": "Priority komunitní policie (např. noční život, doprava, protispolečenské chování) by měly být určovány místně, podle preferencí obyvatel.",
+    "en": "Community policing priorities (e.g., nightlife, traffic, antisocial behaviour) should be set locally to reflect residents’ preferences."
+  },
+    "effect": { "source": 1 }
+  },
+
+  { "text": {
+    "cs": "Snaha vyrovnat všechny regionální rozdíly hrozí, že vymaže místní identitu a iniciativu; rozmanitost lokálních modelů je silou, nikoli problémem k odstranění.",
+    "en": "Efforts to iron out all regional differences risk erasing local identity and initiative; diversity of local models is a strength, not a problem to fix."
+  },
+    "effect": { "source": 1 }
+  }
+
+]
