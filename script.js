@@ -476,15 +476,110 @@ function renderResults() {
 
 /***********************
  *  RESULTS PAGE – BARY
- ***********************/
+ **********************/
 if (byId("bars")) {
     renderResults();
 }
 
-/***********************
- *  VOLEBNÍ KALKULAČKY
- ***********************/
-function runCalculator(containerId, questionsFile, profileKey){
+/***************************
+ *  VOLEBNÍ KALKULAČKA - UK
+ ***************************/
+function runCalculatorUK(containerId, questionsFile, profileKey){
+    const container = byId(containerId);
+    if (!container) return;
+
+    Promise.all([
+        fetch(questionsFile).then(r=>r.json()),
+        fetch("profiles.json").then(r=>r.json())
+    ]).then(([qs, profiles]) => {
+        const parties = profiles[profileKey] || [];
+        let idx = 0;
+        const answers = [];
+
+        showCalcQuestion();
+
+        function showCalcQuestion() {
+            if (idx < qs.length) {
+                const lang = localStorage.getItem("lang") || "cs";
+                const questionText = qs[idx].text[lang] || qs[idx].text["cs"];
+
+                container.innerHTML = `
+            <div id="questionBox">
+            <p>${questionText}</p></div>
+            <div class="answer-row" id="answerRow"></div>
+            <p class="question">${lang === "cs" ? `Otázka: ${idx + 1} z ${qs.length}` : `Question: ${idx + 1} of ${qs.length}`}</p>
+        `;
+
+                // možnosti odpovědí
+                const options = [
+                    { val: -2, label: lang === "cs" ? "Silně nesouhlasím" : "Strongly disagree" },
+                    { val: -1, label: lang === "cs" ? "Nesouhlasím"       : "Disagree" },
+                    { val:  0, label: lang === "cs" ? "Neutrální"        : "Neutral" },
+                    { val:  1, label: lang === "cs" ? "Souhlasím"        : "Agree" },
+                    { val:  2, label: lang === "cs" ? "Silně souhlasím"  : "Strongly agree" }
+                ];
+
+                const answerRow = document.getElementById("answerRow");
+
+                // přidáme tlačítka pro odpovědi
+                options.forEach(opt => {
+                    const btn = document.createElement("button");
+                    btn.className = "btn";
+                    btn.textContent = opt.label;
+                    btn.addEventListener("click", () => {
+                        answers[idx] = opt.val;
+                        idx++;
+                        showCalcQuestion();
+                    });
+                    answerRow.appendChild(btn);
+                });
+
+                // tlačítko zpět (jen pokud nejsme na začátku)
+                if (idx > 0) {
+                    const backBtn = document.createElement("button");
+                    backBtn.className = "btn secondary";
+                    backBtn.textContent = lang === "cs" ? "← Zpět" : "← Back";
+                    backBtn.addEventListener("click", () => {
+                        idx--;
+                        showCalcQuestion();
+                    });
+                    answerRow.appendChild(backBtn);
+                }
+
+            } else {
+                // výpočet výsledků
+                const n = qs.length;
+                const results = parties.map(p => {
+                    let sumAbs = 0;
+                    for (let i=0; i<n; i++) {
+                        const u = answers[i] ?? 0;
+                        const s = p.stances[i] ?? 0;
+                        sumAbs += Math.abs(u - s);
+                    }
+                    const percent = Math.round(100 * (1 - (sumAbs / (n*4))));
+                    return { name: p.name, percent };
+                }).sort((a,b) => b.percent - a.percent);
+
+                const lang = localStorage.getItem("lang") || "cs";
+
+                container.innerHTML = `<h2>${lang === "cs" ? "Výsledek shody" : "Match result"}</h2>`;
+                const top = results[0];
+                if (top) container.innerHTML += `<p>${lang === "cs" ? "Největší shoda" : "Top match"}: <b>${top.name}</b> (${top.percent}%)</p>`;
+                container.innerHTML += `<table class="table"><tr><th>${lang === "cs" ? "Strana" : "Party"}</th><th>${lang === "cs" ? "Shoda" : "Match"}</th></tr>${
+                    results.map(r=>`<tr><td>${r.name}</td><td>${r.percent}%</td></tr>`).join("")
+                }</table>`;
+
+                const key = profileKey === "cz" ? LS_KEYS.CZ_MATCH : LS_KEYS.UK_MATCH;
+                localStorage.setItem(key, JSON.stringify(results));
+            }
+        }
+    });
+}
+
+/***************************
+ *  VOLEBNÍ KALKULAČKA - CZ
+ ***************************/
+function runCalculatorCZ(containerId, questionsFile, profileKey){
     const container = byId(containerId);
     if (!container) return;
 
@@ -577,5 +672,5 @@ function runCalculator(containerId, questionsFile, profileKey){
 }
 
 // Inicializace kalkulaček dle stránky:
-if (byId("calc-cz")) runCalculator("calc-cz", "cz-questions.json", "cz");
-if (byId("calc-uk")) runCalculator("calc-uk", "uk-questions.json", "uk");
+if (byId("calc-cz")) runCalculatorCZ("calc-cz", "cz-questions.json", "cz");
+if (byId("calc-uk")) runCalculatorUK("calc-uk", "uk-questions.json", "uk");
