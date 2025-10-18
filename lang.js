@@ -69,19 +69,24 @@ function setLang(lang) {
     else if (questionText && typeof t === "function") {
         questionText.textContent = t("click_to_start", "Klikněte na „Začít test“");
     }
-
-    const bars = document.getElementById("bars");
-    if (bars && bars.querySelector("a[href='test.html']") && bars.textContent.includes("test")) {
-        bars.innerHTML = `<div class="notice">${t("results_cleared",
-            "Výsledky byly smazány. <a href='test.html'>Znovu vyplnit test</a>.")}</div>`;
-    }
 }
 
 function applyLang() {
+    if (!translations || !translations[currentLang]) return;
+
+    // textové překlady
     document.querySelectorAll("[data-i18n]").forEach(el => {
         const key = el.getAttribute("data-i18n");
-        if (translations[currentLang] && translations[currentLang][key]) {
+        if (translations[currentLang][key]) {
             el.textContent = translations[currentLang][key];
+        }
+    });
+
+    // HTML překlady (např. bannery s odkazem)
+    document.querySelectorAll("[data-i18n-html]").forEach(el => {
+        const key = el.getAttribute("data-i18n-html");
+        if (translations[currentLang][key]) {
+            el.innerHTML = translations[currentLang][key];
         }
     });
 }

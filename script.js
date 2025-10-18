@@ -18,6 +18,8 @@ const t = (key, fallback) => {
 };
 const shuffle = (arr) => arr.map((v)=>({v, i:Math.random()})).sort((a,b)=>a.i-b.i).map(o=>o.v);
 
+let resultsClearedManually = false;
+
 const AXIS_LABELS = {
     economic: {
         left:  { cs: "Socialismus", en: "Socialism" },
@@ -369,54 +371,44 @@ function finishQuiz(){
 }
 
 function renderResults() {
-    let scores = {};
-    try {
-        scores = JSON.parse(localStorage.getItem(LS_KEYS.RESULTS)) || {};
-    } catch(e) {
-        scores = {};
-    }
-
-    const lang = localStorage.getItem("lang") || "cs";
-
     const container = byId("bars");
     if (!container) return;
 
-    // uložíme stav otevřených menu podle indexu
-    const openStates = {};
-    container.querySelectorAll("details").forEach((det, i) => {
-        if (det.open) openStates[i] = true;
-    });
+    let scores = {};
+    try {
+        scores = JSON.parse(localStorage.getItem(LS_KEYS.RESULTS)) || {};
+    } catch (e) {
+        scores = {};
+    }
 
-    container.innerHTML = "";
+    container.innerHTML = ""; // vyčisti starý obsah
 
     if (scores && Object.keys(scores).length) {
-        AXIS_ORDER.forEach((axis, index) => {
+        const lang = localStorage.getItem("lang") || "cs";
+
+        AXIS_ORDER.forEach((axis) => {
             const val = scores[axis] || 0;
             const percent = Math.round((val / 96) * 100);
+            const axisDef = AXIS_LABELS[axis];
 
             const wrapper = document.createElement("div");
+            wrapper.style.margin = "15px 0";
 
-            const axisDef = AXIS_LABELS[axis];
             const label = document.createElement("div");
-            label.className = "axis-label";        // ← PŘIDÁNO
-            label.innerHTML = `
-                <span>${axisDef.left[lang]}</span>
-                <span>${axisDef.right[lang]}</span>
-                `;
-
+            label.className = "axis-label";
             label.innerHTML = `
                 <span>${axisDef.left[lang]}</span>
                 <span>${axisDef.right[lang]}</span>
             `;
 
             const bar = document.createElement("div");
-            bar.className = "axis-bar";            // ← PŘIDÁNO
+            bar.className = "axis-bar";
 
             const baseline = document.createElement("div");
-            baseline.className = "midline";        // ← PŘIDÁNO
+            baseline.className = "midline";
 
             const fill = document.createElement("div");
-            fill.className = "fill";               // ← PŘIDÁNO
+            fill.className = "fill";
             fill.style.width = Math.abs(percent) + "%";
             fill.style.left = percent >= 0 ? "50%" : (50 - Math.abs(percent)) + "%";
 
@@ -425,42 +417,35 @@ function renderResults() {
             wrapper.appendChild(label);
             wrapper.appendChild(bar);
 
-            if (axisDef && axisDef.desc) {
+            if (axisDef.desc) {
                 const details = document.createElement("details");
                 const summary = document.createElement("summary");
                 summary.textContent = lang === "cs" ? "Zobrazit popis" : "Show description";
                 details.appendChild(summary);
 
-                const shell = document.createElement("div");
-                shell.className = "collapsible";     // ← PŘIDÁNO
-
-                const inner = document.createElement("div");
-                inner.innerHTML = `
-                    <div style="margin-bottom:8px;">
-                    <b>${axisDef.left[lang]}:</b><br>
-                    ${axisDef.desc[lang].left}
-                    </div>
-                    <div>
-                        <b>${axisDef.right[lang]}:</b><br>
-                        ${axisDef.desc[lang].right}
-                    </div>
-                    `;
-                shell.appendChild(inner);
-                details.appendChild(shell);
-
-                if (openStates[index]) details.open = true;
+                const text = document.createElement("div");
+                text.innerHTML = `
+                    <div><b>${axisDef.left[lang]}:</b><br>${axisDef.desc[lang].left}</div>
+                    <div style="margin-top:8px;"><b>${axisDef.right[lang]}:</b><br>${axisDef.desc[lang].right}</div>
+                `;
+                details.appendChild(text);
                 wrapper.appendChild(details);
             }
 
             container.appendChild(wrapper);
-        });
-    } else {
-        const container = byId("bars");
-        if (container) {
-            container.innerHTML = `<div class="notice">${t("results_not","Zatím nemáte uložené výsledky. <a href='test.html'>Vyplnit test</a>.")}</div>`;
-        }
+        });}
+    else {
+        const key = resultsClearedManually ? "results_cleared" : "results_not";
+        const fallback = resultsClearedManually
+            ? "Výsledky byly smazány. <a href='test.html'>Znovu vyplnit test</a>."
+            : "Zatím nemáte uložené výsledky. <a href='test.html'>Vyplňte test zde</a>.";
+
+        // vlož i fallback, ať je co zobrazit před načtením překladů
+        container.innerHTML = `<div class="notice" data-i18n-html="${key}">${t(key, fallback)}</div>`;
     }
 }
+
+window.renderResults = renderResults;
 
 
 /***********************
@@ -472,19 +457,22 @@ if (byId("bars")) {
 
 document.addEventListener("DOMContentLoaded", () => {
     const clearBtn = document.getElementById("clearAll");
-    if (clearBtn) {
-        clearBtn.addEventListener("click", () => {
-            localStorage.removeItem(LS_KEYS.RESULTS);
-            localStorage.removeItem(LS_KEYS.PROGRESS);
-            localStorage.removeItem(LS_KEYS.ORDER);
+    if (!clearBtn) return;
 
-            const bars = document.getElementById("bars");
-            if (bars) {
-                bars.innerHTML = `<div class="notice">${t("results_cleared",
-                    "Výsledky byly smazány. <a href='test.html'>Znovu vyplnit test</a>.")}</div>`;
-            }
-        });
-    }
+    clearBtn.addEventListener("click", () => {
+        localStorage.removeItem(LS_KEYS.RESULTS);
+        localStorage.removeItem(LS_KEYS.PROGRESS);
+        localStorage.removeItem(LS_KEYS.ORDER);
+
+        const bars = document.getElementById("bars");
+        if (bars) {
+            bars.innerHTML = `
+        <div class="notice" data-i18n="results_cleared">
+          Výsledky byly smazány. <a href="test.html">Znovu vyplnit test</a>.
+        </div>`;
+            applyLang(); // přeloží nově vložený obsah
+        }
+    });
 });
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -498,4 +486,26 @@ document.addEventListener("DOMContentLoaded", () => {
             a.classList.remove("active");
         }
     });
+
+    if (typeof applyLang === "function") {
+        applyLang();
+    }
+
+    // === SMAZÁNÍ VÝSLEDKŮ ===
+    const clearBtn = document.getElementById("clearAll");
+    if (clearBtn) {
+        clearBtn.addEventListener("click", () => {
+            localStorage.removeItem(LS_KEYS.RESULTS);
+            localStorage.removeItem(LS_KEYS.PROGRESS);
+            localStorage.removeItem(LS_KEYS.ORDER);
+
+            document.getElementById("bars").innerHTML = `
+                <div class="notice" data-i18n="results_cleared">
+                    Výsledky byly smazány. <a href="test.html">Znovu vyplnit test</a>.
+                </div>
+            `;
+
+            applyLang(); // přeloží nově vložený text podle aktuálního jazyka
+        });
+    }
 });
