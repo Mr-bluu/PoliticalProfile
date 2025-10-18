@@ -454,11 +454,10 @@ function renderResults() {
 
             container.appendChild(wrapper);
         });
-
     } else {
         const container = byId("bars");
         if (container) {
-            container.innerHTML = '<div class="notice">${t("results_not","Zatím nemáte uložené výsledky. <a href="test.html">Vyplnit test</a>.")}</div>';
+            container.innerHTML = `<div class="notice">${t("results_not","Zatím nemáte uložené výsledky. <a href='test.html'>Vyplnit test</a>.")}</div>`;
         }
     }
 }
