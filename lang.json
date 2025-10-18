@@ -24,7 +24,14 @@
     "about_project": "O projektu",
     "about_text": "Jeden z mnoha pokusů o zmapování politické orientace. Stejně jako všechny ostatní podobné testy, ani tento není perfektní a slouží pouze jako pomocná vizualizace aby si každý mohl udělat představu jak se staví k nejrůznějším politickým otázkám.",
     "about_text_two": " Cílem ovšem bylo co největším počtem otázek co nejdetailněji popsat vaši orientaci na co nejširším spektru. Děkuji za vyplnění testu.",
-    "inspiration": "Inspirace: 8values, Political compass a jiné ideologické testy."
+    "inspiration": "Inspirace: 8values, Political compass a jiné ideologické testy.",
+    "click_to_start": "Klikněte na „Začít test“",
+    "progress_cleared": "Postup byl smazán. Klikněte na „Začít test“.",
+    "results_cleared": "Výsledky byly smazány. <a href='test.html'>Znovu vyplnit test</a>.",
+    "app_title": "Political Profile",
+    "app_subtitle": "Vyplňte 12-osý test a získejte svůj profil s vysvětlením jednotlivých os.",
+    "begin_test": "Začít test",
+    "learn_more": "Jak test funguje"
   },
   "en": {
     "test": "12-Axis Test",
@@ -51,6 +58,13 @@
     "about_project": "About the project",
     "about_text": "One of many attempts to map political orientation. Like any other test of its kind, it's not perfect and it serves mainly as a visualization to help you see where you stand on political questions.",
     "about_text_two": "The goal was to depict your political orientation in as much detail and in as many axis as I could with a reasonable but decently large amount of questions. Thank you for taking the test to see how you stand.",
-    "inspiration": "Inspiration: 8values, Political compass and other ideology tests."
+    "inspiration": "Inspiration: 8values, Political compass and other ideology tests.",
+    "click_to_start": "Click \"Start test\" to begin",
+    "progress_cleared": "Progress has been cleared. Click \"Start test\" to begin.",
+    "results_cleared": "Results have been deleted. <a href='test.html'>Take the test again</a>.",
+    "app_title": "Political Profile",
+    "app_subtitle": "Complete the 12-axis test to discover your profile with detailed explanations.",
+    "begin_test": "Start test",
+    "learn_more": "How it works"
   }
 }

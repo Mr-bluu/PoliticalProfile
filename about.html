@@ -11,15 +11,20 @@
 <nav>
     <div class="wrap">
         <a class="logo" href="index.html" title="Domů">
-            <img src="img/logo.png" alt="Logo PoliticalProfile" style="height:26px; width:auto;">
-            PoliticalProfile
+            <img src="img/logo.png" alt="Logo PoliticalProfile" style="height:26px;width:auto;">
+            <span>PoliticalProfile</span>
         </a>
-        <ul>
-            <li><a href="test.html" data-i18n="test"></a></li>
-            <li><a href="results.html" data-i18n="results"></a></li>
-            <li><a href="about.html" data-i18n="about"></a></li>
-            <span id="langContainer"></span>
-        </ul>
+
+        <div class="navlinks">
+            <a href="test.html" data-i18n="test">12-osý test</a>
+            <a href="results.html" data-i18n="results">Výsledky</a>
+            <a href="about.html" data-i18n="about">O projektu</a>
+
+            <div id="langContainer" class="lang">
+                <label for="langSelect" aria-label="Jazyk" style="font-weight:600;color:#fff">🌐</label>
+                <select id="langSelect"></select>
+            </div>
+        </div>
     </div>
 </nav>
 
@@ -31,6 +36,7 @@
 </div>
 
 <script src="lang.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>

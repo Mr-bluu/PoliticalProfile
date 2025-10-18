@@ -49,10 +49,31 @@ function setLang(lang) {
     currentLang = lang;
     localStorage.setItem("lang", lang);
     applyLang();
-    if (byId("bars")) renderResults();
-    renderLangSelect(); // refresh selectu s novou volbou
-    if (typeof showQuestion === "function") {
+
+    renderLangSelect(); // obnoví přepínač jazyků
+
+    const startBtn = document.getElementById("startBtn");
+    const questionText = document.getElementById("questionText");
+
+    // pokud jsme na stránce s výsledky
+    if (byId("bars") && typeof renderResults === "function") {
+        renderResults();
+    }
+
+    // pokud jsme u testu a test už běží (tlačítko Start je skryté)
+    else if (typeof showQuestion === "function" && startBtn && startBtn.style.display === "none") {
         showQuestion();
+    }
+
+    // pokud test ještě nezačal → přelož úvodní hlášku
+    else if (questionText && typeof t === "function") {
+        questionText.textContent = t("click_to_start", "Klikněte na „Začít test“");
+    }
+
+    const bars = document.getElementById("bars");
+    if (bars && bars.querySelector("a[href='test.html']") && bars.textContent.includes("test")) {
+        bars.innerHTML = `<div class="notice">${t("results_cleared",
+            "Výsledky byly smazány. <a href='test.html'>Znovu vyplnit test</a>.")}</div>`;
     }
 }
 

@@ -5,11 +5,17 @@ const LS_KEYS = {
     PROGRESS: "compassProgress",      // odpovědi pole [-2..2]
     ORDER: "compassOrder",            // pořadí indexů otázek
     RESULTS: "compassResults",        // finální skóre os {axis: value}
-    CZ_MATCH: "czMatchResults",       // [{name, percent}]
-    UK_MATCH: "ukMatchResults"        // [{name, percent}]
 };
 
 const byId = (id) => document.getElementById(id);
+const t = (key, fallback) => {
+    if (typeof translations === "object" &&
+        translations[currentLang] &&
+        translations[currentLang][key]) {
+        return translations[currentLang][key];
+    }
+    return fallback;
+};
 const shuffle = (arr) => arr.map((v)=>({v, i:Math.random()})).sort((a,b)=>a.i-b.i).map(o=>o.v);
 
 const AXIS_LABELS = {
@@ -208,7 +214,7 @@ if (byId("startBtn")) {
     byId("resetBtn").addEventListener("click", () => {
         localStorage.removeItem(LS_KEYS.PROGRESS);
         localStorage.removeItem(LS_KEYS.ORDER);
-        byId("questionText").textContent = "Postup byl smazán. Klikněte na „Začít test“.";
+        byId("questionText").textContent = t("progress_cleared", "Postup byl smazán. Klikněte na „Začít test“.");
         byId("answers").style.display = "none";
         byId("startBtn").style.display = "inline-block";
     });
@@ -232,7 +238,7 @@ if (byId("resetBtn")) {
         }
 
         // UI reset
-        if (byId("questionText")) byId("questionText").textContent = "Postup byl smazán. Klikněte na „Začít test“.";
+        if (byId("questionText")) byId("questionText").textContent = t("progress_cleared", "Postup byl smazán. Klikněte na „Začít test“.");
         if (byId("answers")) byId("answers").style.display = "none";
         if (byId("progress")) byId("progress").textContent = "";
         if (byId("startBtn")) byId("startBtn").style.display = "inline-block";
@@ -270,6 +276,10 @@ function initTest(allQuestions){
         byId("startBtn").style.display = "none";
         byId("answers").style.display = "flex";
         showQuestion();
+    }
+
+    if (testState.current === 0 && byId("questionText")) {
+        byId("questionText").textContent = t("click_to_start", "Klikněte na „Začít test“");
     }
 }
 
@@ -385,14 +395,14 @@ function renderResults() {
             const percent = Math.round((val / 96) * 100);
 
             const wrapper = document.createElement("div");
-            wrapper.style.margin = "15px 0";
 
             const axisDef = AXIS_LABELS[axis];
             const label = document.createElement("div");
-            label.style.display = "flex";
-            label.style.justifyContent = "space-between";
-            label.style.fontWeight = "bold";
-            label.style.marginBottom = "4px";
+            label.className = "axis-label";        // ← PŘIDÁNO
+            label.innerHTML = `
+                <span>${axisDef.left[lang]}</span>
+                <span>${axisDef.right[lang]}</span>
+                `;
 
             label.innerHTML = `
                 <span>${axisDef.left[lang]}</span>
@@ -400,26 +410,14 @@ function renderResults() {
             `;
 
             const bar = document.createElement("div");
-            bar.style.position = "relative";
-            bar.style.height = "25px";
-            bar.style.background = "#e0e0e0";
-            bar.style.borderRadius = "5px";
-            bar.style.overflow = "hidden";
+            bar.className = "axis-bar";            // ← PŘIDÁNO
 
             const baseline = document.createElement("div");
-            baseline.style.position = "absolute";
-            baseline.style.left = "50%";
-            baseline.style.top = 0;
-            baseline.style.bottom = 0;
-            baseline.style.width = "2px";
-            baseline.style.background = "#000";
+            baseline.className = "midline";        // ← PŘIDÁNO
 
             const fill = document.createElement("div");
-            fill.style.position = "absolute";
-            fill.style.top = 0;
-            fill.style.height = "100%";
+            fill.className = "fill";               // ← PŘIDÁNO
             fill.style.width = Math.abs(percent) + "%";
-            fill.style.background = percent >= 0 ? "#007bff" : "#007bff";
             fill.style.left = percent >= 0 ? "50%" : (50 - Math.abs(percent)) + "%";
 
             bar.appendChild(fill);
@@ -433,43 +431,35 @@ function renderResults() {
                 summary.textContent = lang === "cs" ? "Zobrazit popis" : "Show description";
                 details.appendChild(summary);
 
-                const text = document.createElement("div");
-                text.style.padding = "8px 0";
-                text.innerHTML = `
+                const shell = document.createElement("div");
+                shell.className = "collapsible";     // ← PŘIDÁNO
+
+                const inner = document.createElement("div");
+                inner.innerHTML = `
                     <div style="margin-bottom:8px;">
-                        <b>${axisDef.left[lang]}:</b><br>
-                        ${axisDef.desc[lang].left}
+                    <b>${axisDef.left[lang]}:</b><br>
+                    ${axisDef.desc[lang].left}
                     </div>
                     <div>
                         <b>${axisDef.right[lang]}:</b><br>
                         ${axisDef.desc[lang].right}
                     </div>
-                `;
-                details.appendChild(text);
+                    `;
+                shell.appendChild(inner);
+                details.appendChild(shell);
 
-                // znovu nastavíme stav otevření podle předchozího renderu
-                if (openStates[index]) {
-                    details.open = true;
-                }
-
+                if (openStates[index]) details.open = true;
                 wrapper.appendChild(details);
             }
 
             container.appendChild(wrapper);
         });
 
-        const summary = byId("summary");
-        summary.innerHTML = "<h4>Číselné hodnoty</h4>";
-        Object.entries(scores).forEach(([axis, val]) => {
-            const dir = val > 0 ? '<span class="badge">+</span>'
-                : val < 0 ? '<span class="badge">−</span>'
-                    : '<span class="badge">0</span>';
-            summary.innerHTML += `<p>${axis}: <b>${val}</b> ${dir}</p>`;
-        });
-
     } else {
-        byId("summary").innerHTML =
-            '<div class="notice">Zatím nemáte výsledek 12-axis testu. <a href="test.html">Vyplnit test</a>.</div>';
+        const container = byId("bars");
+        if (container) {
+            container.innerHTML = '<div class="notice">Zatím nemáte uložené výsledky. <a href="test.html">Vyplnit test</a>.</div>';
+        }
     }
 }
 
@@ -480,3 +470,33 @@ function renderResults() {
 if (byId("bars")) {
     renderResults();
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const clearBtn = document.getElementById("clearAll");
+    if (clearBtn) {
+        clearBtn.addEventListener("click", () => {
+            localStorage.removeItem(LS_KEYS.RESULTS);
+            localStorage.removeItem(LS_KEYS.PROGRESS);
+            localStorage.removeItem(LS_KEYS.ORDER);
+
+            const bars = document.getElementById("bars");
+            if (bars) {
+                bars.innerHTML = `<div class="notice">${t("results_cleared",
+                    "Výsledky byly smazány. <a href='test.html'>Znovu vyplnit test</a>.")}</div>`;
+            }
+        });
+    }
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const currentURL = window.location.href.toLowerCase();
+
+    document.querySelectorAll("nav .navlinks a[href]").forEach(a => {
+        const link = a.getAttribute("href").toLowerCase();
+        if (currentURL.includes(link)) {
+            a.classList.add("active");
+        } else {
+            a.classList.remove("active");
+        }
+    });
+});
