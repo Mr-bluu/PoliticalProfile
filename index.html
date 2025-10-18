@@ -16,8 +16,6 @@
         </a>
         <ul>
             <li><a href="test.html" data-i18n="test"></a></li>
-            <li><a href="cz-calculator.html" data-i18n="czcalc"></a></li>
-            <li><a href="uk-calculator.html" data-i18n="ukcalc"></a></li>
             <li><a href="results.html" data-i18n="results"></a></li>
             <li><a href="about.html" data-i18n="about"></a></li>
             <span id="langContainer"></span>
@@ -26,11 +24,14 @@
 </nav>
 
 <div id="content">
-    <h1>Vítejte</h1>
-    <p>Tento web nabízí 12-osý politický test, dvě volební kalkulačky a stránku s výsledky a profilem uživatele.</p>
-    <p class="muted">Začněte třeba <a href="test.html">hlavním testem</a> nebo si zkuste <a href="cz-calculator.html">kalkulačku pro ČR</a>.</p>
+    <h1 data-i18n="welcome"></h1>
+    <p data-i18n="intro"></p>
+    <p class="muted">
+        <span data-i18n="begin_prefix">Začněte třeba </span>
+        <a href="test.html" data-i18n="begin_link">hlavním testem</a>.
+    </p>
     <hr>
-    <div class="notice">Upozornění: Data se ukládají pouze do vašeho prohlížeče (localStorage). Žádná data neodesíláme na server.</div>
+    <div class="notice" data-i18n="warning"></div>
 </div>
 
 <script src="lang.js"></script>

@@ -18,8 +18,6 @@
         </a>
         <ul>
             <li><a href="test.html" data-i18n="test"></a></li>
-            <li><a href="cz-calculator.html" data-i18n="czcalc"></a></li>
-            <li><a href="uk-calculator.html" data-i18n="ukcalc"></a></li>
             <li><a href="results.html" data-i18n="results"></a></li>
             <li><a href="about.html" data-i18n="about"></a></li>
             <span id="langContainer"></span>
@@ -28,23 +26,14 @@
 </nav>
 
 <div id="content">
-    <h1>Vaše výsledky</h1>
+    <h1 data-i18n="your_results"></h1>
 
-    <h3>12-Axis Test</h3>
     <div id="bars"></div>
 
     <script src="script.js"></script>
 
     <hr>
-
-    <h3>Shoda se stranami (ČR)</h3>
-    <table class="table" id="czResultsTable"><tr><td class="muted">Zatím žádná data.</td></tr></table>
-
-    <h3>Shoda se stranami (UK)</h3>
-    <table class="table" id="ukResultsTable"><tr><td class="muted">Zatím žádná data.</td></tr></table>
-
-    <hr>
-    <button class="btn secondary" id="clearAll">Smazat všechny uložené výsledky</button>
+    <button class="btn secondary" id="clearAll" data-i18n="delete_results"></button>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

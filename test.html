@@ -18,8 +18,6 @@
         </a>
         <ul>
             <li><a href="test.html" data-i18n="test"></a></li>
-            <li><a href="cz-calculator.html" data-i18n="czcalc"></a></li>
-            <li><a href="uk-calculator.html" data-i18n="ukcalc"></a></li>
             <li><a href="results.html" data-i18n="results"></a></li>
             <li><a href="about.html" data-i18n="about"></a></li>
             <span id="langContainer"></span>
@@ -28,8 +26,8 @@
 </nav>
 
 <div id="content">
-    <h1>12-Axis Political Compass</h1>
-    <p class="muted">Test lze kdykoliv přerušit a pokračovat později. Pořadí otázek je pro vás náhodné a uložené.</p>
+    <h1 data-i18n="heading"></h1>
+    <p class="muted" data-i18n="test_info"></p>
     <hr>
 
     <div id="quiz">
@@ -51,9 +49,9 @@
 
         <p class="progress" id="progress"></p>
         <div style="display:flex; gap:8px; justify-content:center;">
-            <button id="backBtn" class="btn secondary" style="display:none;">Zpět</button>
-            <button id="startBtn" class="btn">Začít test</button>
-            <button id="resetBtn" class="btn secondary">Resetovat postup</button>
+            <button id="backBtn" class="btn secondary" style="display:none;"></button>
+            <button id="startBtn" class="btn" data-i18n="start_test"></button>
+            <button id="resetBtn" class="btn secondary" data-i18n="reset_progress"></button>
         </div>
     </div>
 </div>
